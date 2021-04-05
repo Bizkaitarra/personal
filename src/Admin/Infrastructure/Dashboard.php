@@ -3,6 +3,7 @@
 namespace App\Admin\Infrastructure;
 
 use App\Entity\Exam;
+use App\Entity\Question;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard as EasyAdminDashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
@@ -26,5 +27,6 @@ class Dashboard extends AbstractDashboardController
     {
         yield MenuItem::linktoDashboard('Dashboard', 'fa fa-home');
          yield MenuItem::linkToCrud('Exams', 'fas fa-list', Exam::class);
+         yield MenuItem::linkToCrud('Questions', 'fas fa-list', Question::class);
     }
 }

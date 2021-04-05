@@ -1,0 +1,4 @@
+admin_index:
+  methods: GET
+  path: /admin
+  controller: App\Admin\Infrastructure\Dashboard::index

@@ -215,5 +215,13 @@ class Question
         return $this;
     }
 
+    public function getExamName():string
+    {
+        if ($this->exam === null) {
+            return '';
+        }
+        return $this->exam->getName();
+    }
+
 
 }

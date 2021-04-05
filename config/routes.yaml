@@ -1,3 +1,7 @@
 admin:
   resource: '../src/Admin/Infrastructure/Routes/'
   type:     directory
+
+exam-api:
+  resource: '../src/Exam/Infrastructure/config/'
+  type:     directory

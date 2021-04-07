@@ -5,14 +5,9 @@ namespace App\Exam\Infrastructure\Repository;
 
 
 use App\Entity\Exam;
-use App\Exam\Domain\ApplicationId;
-
-use App\Exam\Domain\Exceptions\ExamsForApplicationIdNotFound;
-use App\Exam\Domain\Exceptions\QuestionsForAplicationIdNotFound;
-use App\Exam\Domain\Question;
 use App\Exam\Domain\Repository\QuestionRepository;
 use Doctrine\ORM\EntityManagerInterface;
-use App\Entity\Question as QuestionEntity;
+use App\Entity\Question;
 
 class DoctrineQuestionRepository implements QuestionRepository
 {
@@ -24,51 +19,18 @@ class DoctrineQuestionRepository implements QuestionRepository
     }
 
 
-    /**
-     * @param ApplicationId $applicationId
-     * @return Question
-     * @throws ExamsForApplicationIdNotFound
-     * @throws QuestionsForAplicationIdNotFound
-     */
-    public function findRamdomQuestion(ApplicationId $applicationId): Question
+    public function findRamdomQuestion(Exam $exam):?Question
     {
 
-        $exams = $this->entityManager->getRepository(Exam::class)->findBy(
-            ['application'=>$applicationId->value()]
+        $questions = $this->entityManager->getRepository(Question::class)->findBy(
+            ['exam'=>$exam]
         );
-
-        if (count($exams) === 0) {
-            throw new ExamsForApplicationIdNotFound($applicationId);
+        if (count($questions) == 0) {
+            return null;
         }
 
-        shuffle($exams);
+        shuffle($questions);
 
-        foreach ($exams as $exam) {
-            $questions = $this->entityManager->getRepository(QuestionEntity::class)->findBy(
-                ['exam'=>$exam]
-            );
-
-            if (count($questions) === 0) {
-                continue;
-            }
-
-            shuffle($questions);
-
-            /** @var QuestionEntity $question */
-            $question = $questions[0];
-            return new Question(
-                $question->getExamName(),
-                $question->getNumber(),
-                $question->getQuestion(),
-                $question->getA(),
-                $question->getB(),
-                $question->getC(),
-                $question->getD(),
-                $question->getAnswer()
-            );
-        }
-
-        throw new QuestionsForAplicationIdNotFound($applicationId);
-
+        return $questions[0];
     }
 }

@@ -12,6 +12,7 @@ use App\Exam\Domain\Exceptions\QuestionsForAplicationIdNotFound;
 use App\Exam\Domain\Repository\ExamRepository;
 use App\Exam\Domain\Repository\QuestionRepository;
 use App\Tests\Domain\ExamMother;
+use App\Tests\Domain\QuestionMother;
 use PHPUnit\Framework\TestCase;
 
 class RamdomQuestionFinderTest extends TestCase
@@ -54,6 +55,17 @@ class RamdomQuestionFinderTest extends TestCase
         $questionFinder = new RamdomQuestionFinder($examRepositoryMock, $questionRepositoryMock);
         $this->expectException(QuestionsForAplicationIdNotFound::class);
         $questionFinder->__invoke(new ApplicationId(2));
+    }
+
+    public function testOneExamWithOneQuestion() {
+        $examRepositoryMock = $this->createMock(ExamRepository::class);
+        $examRepositoryMock->method('findByApplication')->willReturn([ExamMother::generateRandomExam(),ExamMother::generateRandomExam()]);
+        $questionRepositoryMock = $this->createMock(QuestionRepository::class);
+        $questionInExam = QuestionMother::generateRandomQuestion();
+        $questionRepositoryMock->method('findRamdomQuestion')->willReturn($questionInExam);
+        $questionFinder = new RamdomQuestionFinder($examRepositoryMock, $questionRepositoryMock);
+        $questionResult = $questionFinder->__invoke(new ApplicationId(2));
+        $this->assertSame($questionResult, $questionInExam);
     }
 
 }

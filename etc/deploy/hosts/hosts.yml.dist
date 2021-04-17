@@ -1,0 +1,6 @@
+00.00.00.00/prod:
+  stage: prod
+  deploy_path: /var/www/html/personal
+  composer_options: "install  --verbose --prefer-dist --no-interaction --optimize-autoloader"
+  user: personal
+

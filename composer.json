@@ -39,6 +39,11 @@
         "symfony/polyfill-php72": "*"
     },
     "scripts": {
+        "deploy_to_prod": {
+            "go to  etc folder": "cd etc/deploy",
+            "Unlock production": "../../vendor/bin/dep deploy:unlock prod",
+            "Deploy to production": "../../vendor/bin/dep deploy prod"
+        },
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
@@ -60,6 +65,8 @@
         }
     },
     "require-dev": {
+        "deployer/dist": "^6.8",
+        "deployer/recipes": "^6.2",
         "symfony/browser-kit": "5.2.*",
         "symfony/css-selector": "5.2.*",
         "symfony/maker-bundle": "^1.30",

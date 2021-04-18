@@ -1,4 +1,4 @@
 exam-ramdom-question:
   methods: GET
-  path: /exam/ramdon-question/{applicationId}
+  path: /api/exam/random-question/{applicationId}
   controller: App\Exam\Infrastructure\RandomQuestion

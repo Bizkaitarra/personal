@@ -1,0 +1,43 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: My App
+            description: This is an awesome app!
+            version: 1.0.0
+        paths:
+            /api/exam/random-question/{applicationId}:
+                sumary: Gets random exam providing the application id
+                get:
+                    reponses:
+                        '200':
+                            description: The random question
+                            content:
+                                application/json:
+                                    schema:
+                                        $ref: '#/components/schemas/Question'
+        components:
+            schemas:
+                Question:
+                    type: object
+                    properties:
+                        exam:
+                            type: string
+                        number:
+                            type: string
+                        question:
+                            type: string
+                        a:
+                            type: string
+                        b:
+                            type: string
+                        c:
+                            type: string
+                        d:
+                            type: string
+                        answer:
+                            type: string
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc
+
+

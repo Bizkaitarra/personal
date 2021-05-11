@@ -223,5 +223,25 @@ class Question
         return $this->exam->getName();
     }
 
+    public function isCorrectAnswer(string $text)
+    {
+        return strtoupper($text) === strtoupper($this->getTextAnswer());
+    }
+
+    public function getTextAnswer():string
+    {
+        switch ($this->answer) {
+            case 1:
+                return 'A';
+            case 2:
+                return 'B';
+            case 3:
+                return 'C';
+            case 4:
+                return 'D';
+        }
+        return '';
+    }
+
 
 }

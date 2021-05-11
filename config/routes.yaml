@@ -6,6 +6,10 @@ exam-api:
   resource: '../src/Exam/Infrastructure/config/'
   type:     directory
 
+telegram:
+  resource: '../src/Telegram/Infrastructure/config/'
+  type:     directory
+
 app.swagger_ui:
   path: /api/doc
   methods: GET

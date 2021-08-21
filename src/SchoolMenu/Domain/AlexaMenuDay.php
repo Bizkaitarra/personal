@@ -33,6 +33,22 @@ class AlexaMenuDay
     {
         $weekDayName = $this->getDayNameFromNumber();
         $monthDayNumber = $this->getMonthDayNumber();
+        if ($this->isToday()) {
+            return sprintf(
+                ' Hoy tienen de primero %s. De segundo %s. De postre tienen %s. ',
+                $this->first,
+                $this->second,
+                $this->dessert
+            );
+        }
+        if ($this->isTomorrow()) {
+            return sprintf(
+                ' Mañana tienen de primero %s. De segundo %s. De postre tienen %s. ',
+                $this->first,
+                $this->second,
+                $this->dessert
+            );
+        }
         return sprintf(
             ' El %s día %s tienen de primero %s. De segundo %s. De postre tienen %s. ',
             $weekDayName,
@@ -68,6 +84,19 @@ class AlexaMenuDay
     private function getMonthDayNumber(): string
     {
         return $this->day->format('j');
+    }
+
+    private function isToday(): bool
+    {
+        $today = new \DateTime();
+        return $this->day->format('Y-M-d') === $today->format('Y-M-d');
+    }
+
+    private function isTomorrow(): bool
+    {
+        $tomorrow = new \DateTime();
+        $tomorrow->modify('+1 day');
+        return $this->day->format('Y-M-d') === $tomorrow->format('Y-M-d');
     }
 
 

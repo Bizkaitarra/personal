@@ -1,0 +1,3 @@
+ope-due-2:
+  resource: '../../OpeDue/Infrastructure/config/'
+  type:     directory

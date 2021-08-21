@@ -20,7 +20,7 @@ class AlexaNextMenuFinder
     )
     {
         $this->menuRepository = $menuRepository;
-        $this->today = $currentDateProvider->getCurrentDatetime();
+        $this->today = $currentDateProvider->getTodayAtMidnight();
     }
 
     public function __invoke(): string

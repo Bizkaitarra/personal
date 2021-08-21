@@ -11,4 +11,14 @@ class CurrentDateProvider
         return new DateTime();
     }
 
+    public function getTodayAtMidnight(): DateTime {
+        $today = new DateTime();
+        return DateTime::createFromFormat(
+            'Y-M-d H:i:s',
+            sprintf(
+                "%s 00:00",
+                $today->format('Y-M-d'))
+        );
+    }
+
 }

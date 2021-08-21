@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/symfony4.php';
 
 set('application', 'Bizkaitarra personal proyect');
-set('shared_dirs', ['var/log', 'var/sessions']);
+set('shared_dirs', ['var/log', 'var/sessions', 'var/cache']);
 
 // Project repository
 set('repository', 'git@github.com:Bizkaitarra/personal.git');

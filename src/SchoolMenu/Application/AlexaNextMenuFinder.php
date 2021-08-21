@@ -2,7 +2,6 @@
 
 namespace App\SchoolMenu\Application;
 
-use App\Entity\DayMenu;
 use App\SchoolMenu\Domain\AlexaMenuDay;
 use DateTime;
 use App\SchoolMenu\Domain\Repository\MenuRepository;

@@ -15,6 +15,10 @@ bloodDonors:
   resource: '../src/BloodDonors/Infrastructure/config/'
   type: directory
 
+SchoolMenu:
+  resource: '../src/SchoolMenu/Infrastructure/config/'
+  type: directory
+
 app.swagger_ui:
   path: /api/doc
   methods: GET

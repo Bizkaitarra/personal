@@ -1,0 +1,4 @@
+alexaMenuFinder:
+  methods: GET
+  path: /api/sofiataramona-menu/
+  controller: App\SchoolMenu\Infrastructure\Controller\AlexaNextMenuFinderController

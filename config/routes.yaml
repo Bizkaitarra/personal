@@ -10,6 +10,11 @@ telegram:
   resource: '../src/Telegram/Infrastructure/config/'
   type:     directory
 
+
+bloodDonors:
+  resource: '../src/BloodDonors/Infrastructure/config/'
+  type: directory
+
 app.swagger_ui:
   path: /api/doc
   methods: GET

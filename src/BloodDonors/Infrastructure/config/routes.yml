@@ -1,0 +1,4 @@
+bloodDonorsFind:
+  methods: POST
+  path: /api/bloddonors/
+  controller: App\BloodDonors\Infrastructure\Controller\AlexaBusFinderController

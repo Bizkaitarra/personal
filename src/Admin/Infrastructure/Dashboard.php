@@ -2,6 +2,7 @@
 
 namespace App\Admin\Infrastructure;
 
+use App\Entity\CMSUser;
 use App\Entity\DayMenu;
 use App\Entity\Exam;
 use App\Entity\Question;
@@ -31,5 +32,7 @@ class Dashboard extends AbstractDashboardController
          yield MenuItem::linkToCrud('Exams', 'fas fa-question-circle', Exam::class);
          yield MenuItem::linkToCrud('Questions', 'fas fa-question', Question::class);
          yield MenuItem::linkToCrud('Menú', 'fas fa-question', DayMenu::class);
+        yield MenuItem::linkToCrud('Usuarios de CMS', 'fas fa-users-cog', CMSUser::class)
+            ->setPermission('ROLE_ADMIN');
     }
 }

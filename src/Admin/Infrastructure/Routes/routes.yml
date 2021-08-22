@@ -1,3 +1,11 @@
+admin_login:
+  path: /login
+  controller: App\Admin\Infrastructure\Security\SecurityController::login
+
+admin_logout:
+  path: /logout
+  controller: App\Admin\Infrastructure\Security\SecurityController::logout
+
 admin_index:
   path: /admin
   controller: App\Admin\Infrastructure\Dashboard::index

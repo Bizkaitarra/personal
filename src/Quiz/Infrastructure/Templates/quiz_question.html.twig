@@ -1,0 +1,83 @@
+{% extends 'quiz_base.html.twig' %}
+
+{% block body %}
+    <form method="post">
+
+        <div id="question" class="row">
+            <div class="col-1 col-lg-3"></div>
+            <div id="question_area" class="col-10 col-lg-6">
+                <p>{{ question.question }}</p>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="answer" type="submit" value="A" class="btn-info"></div>
+                    <div class="col-10"><p>{{ question.a }}</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="answer" type="submit" value="B" class="btn-info"></div>
+                    <div class="col-10"><p>{{ question.b }}</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="answer" type="submit" value="C" class="btn-info"></div>
+                    <div class="col-10"><p>{{ question.c }}</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="answer" type="submit" value="D" class="btn-info"></div>
+                    <div class="col-10"><p>{{ question.d }}</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+    </form>
+
+    <form method="get" action="{{ path('quiz_question') }}">
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area  ">
+                <div class="row">
+                    <input type="submit" class="btn-info" value="No responder, siguiente"/>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+        </div>
+    </form>
+
+    <form method="get" action="{{ path('quiz_index') }}">
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area  ">
+                <div class="row">
+                    <input type="submit" class="btn-info" value="Volver a elegir tipo de examen"/>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+        </div>
+    </form>
+{% endblock %}

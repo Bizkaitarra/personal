@@ -1,0 +1,99 @@
+{% extends 'quiz_base.html.twig' %}
+
+{% block body %}
+    <div id="question" class="row">
+        <div class="col-1 col-lg-3"></div>
+        <div id="question_area" class="col-10 col-lg-6">
+            <p>{{ question.question }}</p>
+        </div>
+        <div class="col-1 col-lg-3"></div>
+
+    </div>
+
+
+    <div id="question" class="row">
+        <div class="col-1 col-lg-3"></div>
+        <div id="question_area" class="col-10 col-lg-6">
+            {% if isSuccess %}
+                <p>Has <span style="color: darkgreen">acertado</span>, la respuesta correcta era {{ question.letterAnswer }}</p>
+            {% else %}
+                <p>Has <span style="color: red">fallado</span>, la respuesta correcta era {{ question.letterAnswer }} y tu respuesta ha sido {{ playerAnswer }}</p>
+            {% endif %}
+        </div>
+        <div class="col-1 col-lg-3"></div>
+
+    </div>
+
+
+
+
+    <div class="row answer">
+        <div class="col-1 col-lg-3"></div>
+        <div class="col-10 col-lg-6 answer_area {% if question.answer == '1' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+            <div class="row">
+                <div class="col-2"><input name="answer" type="submit" value="A" class="btn-info"></div>
+                <div class="col-10"><p>{{ question.a }}</p></div>
+            </div>
+        </div>
+        <div class="col-1 col-lg-3"></div>
+
+    </div>
+    <div class="row answer">
+        <div class="col-1 col-lg-3"></div>
+        <div class="col-10 col-lg-6 answer_area {% if question.answer == '2' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+            <div class="row">
+                <div class="col-2"><input name="answer" type="submit" value="B" class="btn-info"></div>
+                <div class="col-10"><p>{{ question.b }}</p></div>
+            </div>
+        </div>
+        <div class="col-1 col-lg-3"></div>
+
+    </div>
+    <div class="row answer">
+        <div class="col-1 col-lg-3"></div>
+        <div class="col-10 col-lg-6 answer_area {% if question.answer == '3' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+            <div class="row">
+                <div class="col-2"><input name="answer" type="submit" value="C" class="btn-info"></div>
+                <div class="col-10"><p>{{ question.c }}</p></div>
+            </div>
+        </div>
+        <div class="col-1 col-lg-3"></div>
+
+    </div>
+    <div class="row answer">
+        <div class="col-1 col-lg-3"></div>
+        <div class="col-10 col-lg-6 answer_area {% if question.answer == '4' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+            <div class="row">
+                <div class="col-2"><input name="answer" type="submit" value="D" class="btn-info"></div>
+                <div class="col-10"><p>{{ question.d }}</p></div>
+            </div>
+        </div>
+        <div class="col-1 col-lg-3"></div>
+
+    </div>
+
+    <form method="get" action="{{ path('quiz_question') }}">
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area  ">
+                <div class="row">
+                    <input type="submit" class="btn-info" value="Siguiente pregunta"/>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+        </div>
+    </form>
+
+    <form method="get" action="{{ path('quiz_index') }}">
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area  ">
+                <div class="row">
+                    <input type="submit" class="btn-info" value="Volver a elegir tipo de examen"/>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+        </div>
+    </form>
+
+{% endblock %}

@@ -19,7 +19,27 @@ body {
     padding-top: 2px;
     min-height: 30px;
 }
-.answer_area button {
+.answer_area input[type=submit] {
     width: 100%;
     height: 100px;
+}
+
+.home-icon  {
+    margin-top: 70px;
+    border-style: double;
+    border-width: 14px;
+    border-color: #0a0a0a;
+}
+
+#home-panel img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.correct-answer {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: darkgreen;
+    padding: 10px;
 }

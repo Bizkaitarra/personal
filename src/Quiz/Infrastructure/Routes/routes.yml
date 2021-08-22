@@ -9,3 +9,7 @@ quiz_logout:
 quiz_index:
   path: /quiz/play
   controller: App\Quiz\Infrastructure\Controller\HomeController
+
+quiz_question:
+  path: /quiz/play/question
+  controller: App\Quiz\Infrastructure\Controller\QuestionController

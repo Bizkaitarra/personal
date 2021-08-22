@@ -99,5 +99,27 @@ class Question
         return $this->answer;
     }
 
+    public function isCorrectLetterAnswer(string $letter): bool
+    {
+        $letters = [
+            1=>'A',
+            2=>'B',
+            3=>'C',
+            4=>'D'
+        ];
+        return $letters[$this->answer] === $letter;
+
+    }
+
+    public function getLetterAnswer(): string
+    {
+        $letters = [
+            1=>'A',
+            2=>'B',
+            3=>'C',
+            4=>'D'
+        ];
+        return $letters[$this->answer];
+    }
 
 }

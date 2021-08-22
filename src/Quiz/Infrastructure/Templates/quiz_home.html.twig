@@ -1,1 +1,58 @@
 {% extends 'quiz_base.html.twig' %}
+
+{% block body %}
+    <form method="post">
+        <div id="question" class="row">
+            <div class="col-1 col-lg-3"></div>
+            <div id="question_area" class="col-10 col-lg-6">
+                <p>Elije tu tipo de examen</p>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="applicationId" type="submit" value="1" class="btn-info"></div>
+                    <div class="col-10"><p>OPE(s) Enfermería</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="applicationId" type="submit" value="0" class="btn-info"></div>
+                    <div class="col-10"><p>Otras profesiones sanitarias</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="applicationId" type="submit" value="2" class="btn-info"></div>
+                    <div class="col-10"><p>EGA</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+        <div class="row answer">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6 answer_area">
+                <div class="row">
+                    <div class="col-2"><input name="applicationId" type="submit" class="btn-info" value="3"></div>
+                    <div class="col-10"><p>Informática Osakidetza</p></div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+
+        </div>
+    </form>
+{% endblock %}

@@ -19,7 +19,7 @@ set('allow_anonymous_stats', false);
 set('default_timeout', 10000000);
 set('ssh_multiplexing', true);
 set('ssh_type', 'native');
-set('keep_releases', 3);
+set('keep_releases', 1);
 // Hosts
 inventory('hosts/hosts.yml');
 

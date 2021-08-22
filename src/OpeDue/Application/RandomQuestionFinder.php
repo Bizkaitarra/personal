@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Telegram\OpeDue\Application;
+namespace App\OpeDue\Application;
 
 
 use App\Entity\Question;

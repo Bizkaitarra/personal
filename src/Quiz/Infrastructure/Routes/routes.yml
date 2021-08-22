@@ -1,0 +1,11 @@
+quiz_login:
+  path: /quiz/login
+  controller: App\Quiz\Infrastructure\Security\SecurityController::login
+
+quiz_logout:
+  path: /quiz/logout
+  controller: App\Quiz\Infrastructure\Security\SecurityController::logout
+
+quiz_index:
+  path: /quiz/play
+  controller: App\Quiz\Infrastructure\Controller\HomeController

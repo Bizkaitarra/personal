@@ -28,7 +28,7 @@ class AlexaNextMenuFinder
         if (count($menus) === 0) {
             return 'No tengo ningún menú cargado en este momento.';
         }
-        $message = 'Atención que ya viene el menú.';
+        $message = '¡Atención que ya viene el menú!';
         foreach ($menus as $menu) {
             if ($menu instanceof AlexaMenuDay) {
                 $message .= $menu->getMessage();

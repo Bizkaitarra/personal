@@ -38,7 +38,7 @@ class DoctrineMenuRepository implements MenuRepository
                 'd.day >= :date',
             )
             ->setParameter('date', $date)
-            ->orderBy('d.day', 'DESC')
+            ->orderBy('d.day', 'ASC')
             ->setMaxResults($limit)
             ->getQuery();
 

@@ -19,7 +19,7 @@ class DoctrineMenuRepository implements MenuRepository
 
     public function getLastDayWithMenu(): ?DateTime
     {
-        $dayMenu = $this->entityManager->getRepository(DayMenu::class)->findOneBy([],['day'=>'asc']);
+        $dayMenu = $this->entityManager->getRepository(DayMenu::class)->findOneBy([],['day'=>'desc']);
 
         if (!$dayMenu instanceof DayMenu) {
             return null;

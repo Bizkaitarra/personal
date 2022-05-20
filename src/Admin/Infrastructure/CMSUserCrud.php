@@ -42,6 +42,7 @@ class CMSUserCrud extends AbstractCrudController
         $userRoleChoices = [
             'Administrador' => 'ROLE_ADMIN',
             'Gestor' => 'ROLE_MANAGER',
+            'Usuario de Quiz' => 'ROLE_QUIZ_USER',
         ];
         if ($this->user->hasRole('ROLE_SUPER_ADMIN') || Crud::PAGE_INDEX === $pageName) {
             $userRoleChoices['SuperAdministrador'] = 'ROLE_SUPER_ADMIN';
@@ -72,12 +73,6 @@ class CMSUserCrud extends AbstractCrudController
     ): QueryBuilder {
         parent::createIndexQueryBuilder($searchDto, $entityDto, $fields, $filters);
         $response = $this->get(EntityRepository::class)->createQueryBuilder($searchDto, $entityDto, $fields, $filters);
-
-        if (!$this->user->hasRole('ROLE_SUPER_ADMIN')) {
-            $response->andWhere('entity.roles LIKE :roleAdmin or entity.roles LIKE :roleManager')
-                ->setParameter('roleAdmin', '%"'.'ROLE_ADMIN'.'"%')
-                ->setParameter('roleManager', '%"'.'ROLE_MANAGER'.'"%');
-        }
 
         return $response;
     }

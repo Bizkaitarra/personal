@@ -7,6 +7,7 @@
         "php": ">=7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-intl": "*",
         "api-platform/core": "^2.6",
         "borsaco/telegram-bot-api-bundle": "^1.0",
         "composer/package-versions-deprecated": "1.11.99.1",

@@ -2,23 +2,20 @@
 
 namespace App\Quiz\Infrastructure\Controller;
 
-use App\Exam\Application\RamdomQuestionFinder;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
 class HomeController extends AbstractController
 {
-    private RamdomQuestionFinder $ramdomQuestionFinder;
     private SessionInterface $session;
 
     public function __construct(
-        RamdomQuestionFinder $ramdomQuestionFinder,
-        SessionInterface $session
+        RequestStack $requestStack
     )
     {
-        $this->ramdomQuestionFinder = $ramdomQuestionFinder;
-        $this->session = $session;
+        $this->session = $requestStack->getSession();
     }
 
 

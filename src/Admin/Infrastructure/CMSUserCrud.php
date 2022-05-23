@@ -65,18 +65,6 @@ class CMSUserCrud extends AbstractCrudController
             ->setEntityLabelInPlural('Users');
     }
 
-    public function createIndexQueryBuilder(
-        SearchDto $searchDto,
-        EntityDto $entityDto,
-        FieldCollection $fields,
-        FilterCollection $filters
-    ): QueryBuilder {
-        parent::createIndexQueryBuilder($searchDto, $entityDto, $fields, $filters);
-        $response = $this->get(EntityRepository::class)->createQueryBuilder($searchDto, $entityDto, $fields, $filters);
-
-        return $response;
-    }
-
     public function configureActions(Actions $actions): Actions
     {
         $actions = parent::configureActions($actions);

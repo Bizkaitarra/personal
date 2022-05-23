@@ -1,7 +1,4 @@
 {
-    "api-platform/api-pack": {
-        "version": "v1.3.0"
-    },
     "api-platform/core": {
         "version": "2.5",
         "recipe": {
@@ -17,7 +14,7 @@
         ]
     },
     "borsaco/telegram-bot-api-bundle": {
-        "version": "1.0.5"
+        "version": "v1.1.2"
     },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.1"
@@ -117,9 +114,6 @@
             "ref": "b131e6cbfe1b898a508987851963fff485986285"
         }
     },
-    "exsyst/swagger": {
-        "version": "v0.4.2"
-    },
     "fig/link-util": {
         "version": "1.1.2"
     },
@@ -127,53 +121,37 @@
         "version": "v1.0.3"
     },
     "guzzlehttp/guzzle": {
-        "version": "7.3.0"
+        "version": "7.4.2"
     },
     "guzzlehttp/promises": {
-        "version": "1.4.1"
+        "version": "1.5.1"
     },
     "guzzlehttp/psr7": {
-        "version": "1.8.2"
+        "version": "2.2.1"
     },
     "illuminate/collections": {
-        "version": "v8.55.0"
+        "version": "v9.13.0"
+    },
+    "illuminate/conditionable": {
+        "version": "v9.13.0"
     },
     "illuminate/contracts": {
-        "version": "v8.55.0"
+        "version": "v9.13.0"
     },
     "illuminate/macroable": {
-        "version": "v8.55.0"
+        "version": "v9.13.0"
     },
     "illuminate/support": {
-        "version": "v8.55.0"
+        "version": "v9.13.0"
     },
     "irazasyed/telegram-bot-sdk": {
-        "version": "v3.4.1"
+        "version": "v3.6"
     },
     "laminas/laminas-code": {
         "version": "4.1.0"
     },
-    "laminas/laminas-eventmanager": {
-        "version": "3.3.1"
-    },
-    "laminas/laminas-zendframework-bridge": {
-        "version": "1.2.0"
-    },
     "league/event": {
         "version": "2.2.0"
-    },
-    "nelmio/api-doc-bundle": {
-        "version": "3.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "3.0",
-            "ref": "c8e0c38e1a280ab9e37587a8fa32b251d5bc1c94"
-        },
-        "files": [
-            "config/packages/nelmio_api_doc.yaml",
-            "config/routes/nelmio_api_doc.yaml"
-        ]
     },
     "nelmio/cors-bundle": {
         "version": "1.5",
@@ -188,13 +166,10 @@
         ]
     },
     "nesbot/carbon": {
-        "version": "2.52.0"
+        "version": "2.58.0"
     },
     "nikic/php-parser": {
         "version": "v4.10.4"
-    },
-    "php": {
-        "version": "7.4"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -217,6 +192,9 @@
     "psr/http-client": {
         "version": "1.0.1"
     },
+    "psr/http-factory": {
+        "version": "1.0.1"
+    },
     "psr/http-message": {
         "version": "1.0.1"
     },
@@ -227,7 +205,7 @@
         "version": "1.1.3"
     },
     "psr/simple-cache": {
-        "version": "1.0.1"
+        "version": "3.0.0"
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
@@ -357,8 +335,8 @@
     "symfony/options-resolver": {
         "version": "v5.2.4"
     },
-    "symfony/orm-pack": {
-        "version": "v2.1.0"
+    "symfony/password-hasher": {
+        "version": "v6.0.8"
     },
     "symfony/phpunit-bridge": {
         "version": "5.1",
@@ -387,11 +365,11 @@
     "symfony/polyfill-mbstring": {
         "version": "v1.22.1"
     },
-    "symfony/polyfill-php73": {
-        "version": "v1.22.1"
-    },
     "symfony/polyfill-php80": {
         "version": "v1.22.1"
+    },
+    "symfony/polyfill-php81": {
+        "version": "v1.25.0"
     },
     "symfony/polyfill-uuid": {
         "version": "v1.22.1"
@@ -437,17 +415,11 @@
     "symfony/security-csrf": {
         "version": "v5.2.4"
     },
-    "symfony/security-guard": {
-        "version": "v5.2.4"
-    },
     "symfony/security-http": {
         "version": "v5.2.6"
     },
     "symfony/serializer": {
         "version": "v5.2.4"
-    },
-    "symfony/serializer-pack": {
-        "version": "v1.0.4"
     },
     "symfony/service-contracts": {
         "version": "v2.2.0"
@@ -523,15 +495,12 @@
         "version": "v3.3.0"
     },
     "voku/portable-ascii": {
-        "version": "1.5.6"
+        "version": "2.0.1"
     },
     "webmozart/assert": {
         "version": "1.10.0"
     },
     "willdurand/negotiation": {
         "version": "3.0.0"
-    },
-    "zircote/swagger-php": {
-        "version": "2.1.0"
     }
 }

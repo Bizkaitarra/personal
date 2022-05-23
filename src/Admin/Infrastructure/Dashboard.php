@@ -9,14 +9,20 @@ use App\Entity\Question;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard as EasyAdminDashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
+use EasyCorp\Bundle\EasyAdminBundle\Router\AdminUrlGenerator;
 use Symfony\Component\HttpFoundation\Response;
 
 class Dashboard extends AbstractDashboardController
 {
+    public function __construct(
+        private readonly AdminUrlGenerator $adminUrlGenerator
+    )
+    {}
+
 
     public function index(): Response
     {
-        return parent::index();
+        return $this->redirect($this->adminUrlGenerator->setController(ExamCrudController::class)->generateUrl());
     }
 
     public function configureDashboard(): EasyAdminDashboard
@@ -27,12 +33,14 @@ class Dashboard extends AbstractDashboardController
 
     public function configureMenuItems(): iterable
     {
-
-        yield MenuItem::linktoDashboard('Dashboard', 'fa fa-home');
-         yield MenuItem::linkToCrud('Exams', 'fas fa-question-circle', Exam::class);
-         yield MenuItem::linkToCrud('Questions', 'fas fa-question', Question::class);
-         yield MenuItem::linkToCrud('Menú', 'fas fa-question', DayMenu::class);
-        yield MenuItem::linkToCrud('Usuarios de CMS', 'fas fa-users-cog', CMSUser::class)
-            ->setPermission('ROLE_ADMIN');
+        return
+            [
+                MenuItem::linktoDashboard('Dashboard', 'fa fa-home'),
+                MenuItem::linkToCrud('Exams', 'fas fa-question-circle', Exam::class),
+                MenuItem::linkToCrud('Questions', 'fas fa-question', Question::class),
+                MenuItem::linkToCrud('Menú', 'fas fa-question', DayMenu::class),
+                MenuItem::linkToCrud('Usuarios de CMS', 'fas fa-users-cog', CMSUser::class)
+                    ->setPermission('ROLE_ADMIN'),
+            ];
     }
 }

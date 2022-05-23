@@ -1,5 +1,5 @@
 security:
-    encoders:
+    password_hashers:
         App\Entity\CMSUser:
             algorithm: bcrypt
             cost: 4
@@ -13,24 +13,22 @@ security:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
         quiz:
+            security: true
             pattern: ^/quiz/
-            anonymous: true
             lazy: true
             provider: app_user_provider
-            guard:
-                authenticators:
+            custom_authenticator:
                     - App\Quiz\Infrastructure\Security\QuizUserAuthenticator
             logout:
                 path: quiz_logout
                 target: quiz_login
         main:
+            security: true
 #            pattern: ^/admin
-            anonymous: true
             lazy: true
             provider: app_user_provider
-            guard:
-                authenticators:
-                    - App\Admin\Infrastructure\Security\UserAthenticatorAuthenticator
+            custom_authenticator:
+                    - App\Admin\Infrastructure\Security\UserAuthenticator
             logout:
                 path: admin_logout
                 target: admin_login

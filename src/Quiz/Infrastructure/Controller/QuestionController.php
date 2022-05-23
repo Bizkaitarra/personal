@@ -9,26 +9,25 @@ use App\Exam\Domain\Exceptions\QuestionsForAplicationIdNotFound;
 use App\Exam\Domain\Question;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
 class QuestionController extends AbstractController
 {
-    private RamdomQuestionFinder $ramdomQuestionFinder;
     private SessionInterface $session;
 
     public function __construct(
-        RamdomQuestionFinder $ramdomQuestionFinder,
-        SessionInterface $session
+        private readonly RamdomQuestionFinder $randomQuestionFinder,
+        RequestStack                          $requestStack
     )
     {
-        $this->ramdomQuestionFinder = $ramdomQuestionFinder;
-        $this->session = $session;
+        $this->session = $requestStack->getSession();
     }
 
 
     public function __invoke(Request $request)
     {
-        $appicationId = $this->session->get('applicationId');
+        $applicationId = $this->session->get('applicationId');
 
         $question = $this->session->get('lastQuestion');
         if ($request->getMethod() === 'POST' && $request->request->has('answer') && $question instanceof Question) {
@@ -46,7 +45,7 @@ class QuestionController extends AbstractController
 
 
         try {
-            $question = $this->ramdomQuestionFinder->__invoke(new ApplicationId($appicationId));
+            $question = $this->randomQuestionFinder->__invoke(new ApplicationId($applicationId));
         } catch (ExamsForApplicationIdNotFound | QuestionsForAplicationIdNotFound $e) {
             return $this->render('quiz_no_questions.html.twig');
         }

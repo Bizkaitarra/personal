@@ -3,12 +3,13 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
  * @ORM\Entity
  */
-class CMSUser implements UserInterface
+class CMSUser implements UserInterface, PasswordAuthenticatedUserInterface
 {
     /**
      * @ORM\Id
@@ -115,7 +116,8 @@ class CMSUser implements UserInterface
         }
     }
 
-    public function hasRole(string $role) {
+    public function hasRole(string $role): bool
+    {
         return in_array($role, $this->getRoles());
     }
 
@@ -125,15 +127,6 @@ class CMSUser implements UserInterface
 
         return $this;
     }
-
-    /**
-     * @see UserInterface
-     */
-    public function getSalt()
-    {
-        // not needed when using the "bcrypt" algorithm in security.yaml
-    }
-
     /**
      * @see UserInterface
      */
@@ -143,22 +136,8 @@ class CMSUser implements UserInterface
         // $this->plainPassword = null;
     }
 
-    /**
-     * @return bool
-     */
-    public function isChangePassword(): bool
+    public function getUserIdentifier(): string
     {
-        return $this->changePassword;
+        return $this->getEmail();
     }
-
-    /**
-     * @param bool $changePassword
-     */
-    public function setChangePassword(bool $changePassword): void
-    {
-        $this->changePassword = $changePassword;
-    }
-
-
-
 }

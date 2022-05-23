@@ -1,12 +1,13 @@
 <?php
 
 
-namespace App\Quiz\Infrastructure\Security;
+namespace App\Admin\Infrastructure\Security;
 
 use App\Entity\CMSUser;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Exception\CustomUserMessageAuthenticationException;
@@ -15,23 +16,26 @@ use Symfony\Component\Security\Http\Authenticator\Passport\Badge\UserBadge;
 use Symfony\Component\Security\Http\Authenticator\Passport\Credentials\PasswordCredentials;
 use Symfony\Component\Security\Http\Authenticator\Passport\Passport;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
-use Symfony\Component\HttpFoundation\Response;
 
-class QuizUserAuthenticator extends AbstractLoginFormAuthenticator
+class UserAuthenticator  extends AbstractLoginFormAuthenticator
 {
     use TargetPathTrait;
 
-    public const LOGIN_ROUTE = 'quiz_login';
+    public const LOGIN_ROUTE = 'admin_login';
 
     public function __construct(
         private readonly EntityManagerInterface $entityManager,
         private readonly UrlGeneratorInterface $urlGenerator
     ) {
     }
+    public function supports(Request $request): bool
+    {
+        return $request->isMethod('POST') && $this->getLoginUrl($request) === $request->getPathInfo();
+    }
+
 
     public function authenticate(Request $request): Passport
     {
-        echo "aaaa";exit();
         $email = $request->request->get('_username');
         $password = $request->request->get('_password');
 
@@ -56,7 +60,7 @@ class QuizUserAuthenticator extends AbstractLoginFormAuthenticator
             return new RedirectResponse($targetPath);
         }
 
-        return new RedirectResponse($this->urlGenerator->generate('quiz_index'));
+        return new RedirectResponse($this->urlGenerator->generate('admin_index'));
     }
 
     protected function getLoginUrl(Request $request): string

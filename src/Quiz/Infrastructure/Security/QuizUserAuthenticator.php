@@ -31,7 +31,6 @@ class QuizUserAuthenticator extends AbstractLoginFormAuthenticator
 
     public function authenticate(Request $request): Passport
     {
-        echo "aaaa";exit();
         $email = $request->request->get('_username');
         $password = $request->request->get('_password');
 

@@ -47,7 +47,7 @@ class RandomQuestionFinder
 
         foreach ($exams as $exam) {
 
-            $question = $this->questionRepository->findRamdomQuestion($exam);
+            $question = $this->questionRepository->findRandomQuestion($exam);
             if  ($question instanceof Question) {
                 return $question;
             }

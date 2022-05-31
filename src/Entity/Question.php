@@ -135,6 +135,28 @@ class Question
     {
         return $this->question;
     }
+    
+    public function getQuestionTextWithoutQuestionNumber(): ?string {
+
+        $question = $this->question;
+
+        if (!is_numeric(substr($question, 0, 1))) {
+            return $question;
+        }
+        
+        $numericPartOffset = 1;
+        while(is_numeric(substr($question, 0,$numericPartOffset+1))) {
+            $numericPartOffset++;
+        }
+
+        $question = substr($question, $numericPartOffset);
+
+        if (str_starts_with($question, ".")) {
+            $question = substr($question, 1);
+        }
+
+        return $question;
+    }
 
     public function setQuestion(string $question): self
     {
@@ -230,17 +252,13 @@ class Question
 
     public function getTextAnswer():string
     {
-        switch ($this->answer) {
-            case 1:
-                return 'A';
-            case 2:
-                return 'B';
-            case 3:
-                return 'C';
-            case 4:
-                return 'D';
-        }
-        return '';
+        return match ($this->answer) {
+            "1" => 'A',
+            "2" => 'B',
+            "3" => 'C',
+            "4" => 'D',
+            default => '-',
+        };
     }
 
 

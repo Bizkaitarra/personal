@@ -45,7 +45,7 @@ class RamdomQuestionFinder
 
         foreach ($exams as $exam) {
 
-            $question = $this->questionRepository->findRamdomQuestion($exam);
+            $question = $this->questionRepository->findRandomQuestion($exam);
 
             if  ($question instanceof QuestionEntity) {
 

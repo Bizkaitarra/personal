@@ -13,3 +13,7 @@ quiz_index:
 quiz_question:
   path: /quiz/play/question
   controller: App\Quiz\Infrastructure\Controller\QuestionController
+
+quiz_generate_exam:
+  path: /quiz/generate-exam
+  controller: App\Quiz\Infrastructure\Controller\ExamGeneratorController

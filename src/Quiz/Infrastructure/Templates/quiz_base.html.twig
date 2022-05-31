@@ -8,6 +8,10 @@
 </head>
 <body>
 <div class="container-fluid">
+    {% if app.session.get('applicationId') %}
+        <a href="{{ path('quiz_generate_exam') }}">Generate</a>
+    {% endif %}
+
     {% block body %}{% endblock %}
 </div>
 

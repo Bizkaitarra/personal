@@ -1,7 +1,6 @@
 twig:
     default_path: '%kernel.project_dir%/templates'
     paths:
-        "src/Admin/Infrastructure/Templates": ~
         "src/Admin/Infrastructure/Security/Templates": ~
         "src/Quiz/Infrastructure/Security/Templates": ~
         "src/Quiz/Infrastructure/Templates": ~

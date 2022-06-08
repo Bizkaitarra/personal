@@ -57,4 +57,9 @@ class DoctrineQuestionRepository implements QuestionRepository
 
         return array_slice($questions, 0, $numberOfQuestions);
     }
+
+    public function find(int $id): Question
+    {
+        return $this->entityManager->getRepository(Question::class)->find($id);
+    }
 }

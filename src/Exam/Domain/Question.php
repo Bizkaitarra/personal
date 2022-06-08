@@ -6,33 +6,26 @@ namespace App\Exam\Domain;
 
 class Question
 {
-    private string $exam;
-    private string $number;
-    private string $question;
-    private string $a;
-    private string $b;
-    private string $c;
-    private string $d;
-    private string $answer;
-
     public function __construct(
-        string $exam,
-        string $number,
-        string $question,
-        string $a,
-        string $b,
-        string $c,
-        string $d,
-        string $answer)
+        private readonly string $questionId,
+        private readonly string $exam,
+        private readonly string $number,
+        private readonly string $question,
+        private readonly string $a,
+        private readonly string $b,
+        private readonly string $c,
+        private readonly string $d,
+        private readonly string $answer
+    )
     {
-        $this->exam = $exam;
-        $this->number = $number;
-        $this->question = $question;
-        $this->a = $a;
-        $this->b = $b;
-        $this->c = $c;
-        $this->d = $d;
-        $this->answer = $answer;
+    }
+
+    /**
+     * @return string
+     */
+    public function getQuestionId(): string
+    {
+        return $this->questionId;
     }
 
     /**
@@ -102,24 +95,48 @@ class Question
     public function isCorrectLetterAnswer(string $letter): bool
     {
         $letters = [
-            1=>'A',
-            2=>'B',
-            3=>'C',
-            4=>'D'
+            1 => 'A',
+            2 => 'B',
+            3 => 'C',
+            4 => 'D'
         ];
         return $letters[$this->answer] === $letter;
 
     }
 
-    public function getLetterAnswer(): string
+    public function getLetterAnswer(): ?string
     {
-        $letters = [
-            1=>'A',
-            2=>'B',
-            3=>'C',
-            4=>'D'
+        return self::transformNumberAnswerToLetter($this->answer);
+    }
+
+    public static function transformNumberAnswerToLetter(?int $answer): ?string
+    {
+        if (!is_numeric($answer)) {
+            return null;
+        }
+
+        $transformationArray = [
+            1 => 'A',
+            2 => 'B',
+            3 => 'C',
+            4 => 'D'
         ];
-        return $letters[$this->answer];
+        return $transformationArray[$answer];
+    }
+
+    public static function transformLetterAnswerToNumber(?string $answer): ?int
+    {
+        if ($answer === null) {
+            return null;
+        }
+
+        $transformationArray = [
+            'A' => 1,
+            'B' => 2,
+            'C' => 3,
+            'D' => 4
+        ];
+        return $transformationArray[$answer];
     }
 
 }

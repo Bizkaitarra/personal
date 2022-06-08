@@ -50,6 +50,7 @@ class RamdomQuestionFinder
             if  ($question instanceof QuestionEntity) {
 
                 return new Question(
+                    $question->getId(),
                     $question->getExamName(),
                     $question->getNumber(),
                     $question->getQuestion(),

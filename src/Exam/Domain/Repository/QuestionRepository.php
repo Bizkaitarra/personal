@@ -20,4 +20,6 @@ interface QuestionRepository
      * @return Question[]|null
      */
     public function findRandomQuestions(ApplicationId $applicationId, int $numberOfQuestions):? array;
+
+    public function find(int $id):Question;
 }

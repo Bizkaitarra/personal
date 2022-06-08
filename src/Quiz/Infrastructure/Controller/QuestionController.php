@@ -7,10 +7,13 @@ use App\Exam\Domain\ApplicationId;
 use App\Exam\Domain\Exceptions\ExamsForApplicationIdNotFound;
 use App\Exam\Domain\Exceptions\QuestionsForAplicationIdNotFound;
 use App\Exam\Domain\Question;
+use App\Quiz\Domain\Events\QuestionHasBeenAnswered;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
+use Symfony\Component\Security\Core\Security;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 class QuestionController extends AbstractController
 {
@@ -18,6 +21,8 @@ class QuestionController extends AbstractController
 
     public function __construct(
         private readonly RamdomQuestionFinder $randomQuestionFinder,
+        private readonly EventDispatcherInterface $eventDispatcher,
+        private readonly Security $security,
         RequestStack                          $requestStack
     )
     {
@@ -32,13 +37,18 @@ class QuestionController extends AbstractController
         $question = $this->session->get('lastQuestion');
         if ($request->getMethod() === 'POST' && $request->request->has('answer') && $question instanceof Question) {
             $answer = $request->request->get('answer');
+            $this->eventDispatcher->dispatch(new QuestionHasBeenAnswered(
+                new \DateTime(),
+                $question,
+                $answer,
+                $this->security->getUser()->getUserIdentifier(),
+            ));
             return $this->render(
                 'quiz_question_answer.html.twig',
                 [
                     'question' => $question,
                     'playerAnswer' => $answer,
                     'isSuccess' => $question->isCorrectLetterAnswer($answer)
-
                 ]
             );
         }

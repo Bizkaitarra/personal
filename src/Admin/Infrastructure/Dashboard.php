@@ -38,7 +38,7 @@ class Dashboard extends AbstractDashboardController
                 MenuItem::linktoDashboard('Dashboard', 'fa fa-home'),
                 MenuItem::linkToCrud('Exams', 'fas fa-question-circle', Exam::class),
                 MenuItem::linkToCrud('Questions', 'fas fa-question', Question::class),
-                MenuItem::linkToCrud('Menú', 'fas fa-question', DayMenu::class),
+                MenuItem::linkToCrud('Menú', 'fas fa-utensils', DayMenu::class),
                 MenuItem::linkToCrud('Usuarios de CMS', 'fas fa-users-cog', CMSUser::class)
                     ->setPermission('ROLE_ADMIN'),
             ];

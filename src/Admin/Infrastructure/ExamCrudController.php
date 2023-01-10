@@ -3,6 +3,7 @@
 namespace App\Admin\Infrastructure;
 
 use App\Entity\Exam;
+use EasyCorp\Bundle\EasyAdminBundle\Config\Filters;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\BooleanField;
@@ -30,6 +31,15 @@ class ExamCrudController extends AbstractCrudController
             TextField::new('type'),
             IntegerField::new('application'),
         ];
+    }
+
+    public function configureFilters(Filters $filters): Filters
+    {
+        return $filters
+            ->add('state')
+            ->add('type')
+            ->add('application')
+            ;
     }
 
 }

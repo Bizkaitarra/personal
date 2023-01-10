@@ -4,13 +4,12 @@ namespace App\Exam\Application;
 
 use App\Entity\Question;
 use App\Exam\Domain\ApplicationId;
-use App\Exam\Domain\Repository\QuestionRepository;
-use Dompdf\Dompdf;
+use App\Exam\Domain\Repository\ExamRepository;
 
 class RandomExamGenerator
 {
     public function __construct(
-        private readonly QuestionRepository $questionRepository
+        private readonly ExamRepository $examRepository
     )
     {
     }
@@ -18,8 +17,9 @@ class RandomExamGenerator
 
     public function __invoke(ApplicationId $applicationId): string
     {
-        $questions = $this->questionRepository->findRandomQuestions($applicationId, 110);
+        $questions = $this->examRepository->findRandomQuestions($applicationId);
 
+        shuffle($questions);
 
         $html ='<!DOCTYPE html><html><head><title>Exámen de prueba</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>';
 

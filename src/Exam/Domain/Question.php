@@ -7,6 +7,7 @@ namespace App\Exam\Domain;
 class Question
 {
     public function __construct(
+        private readonly int $examId,
         private readonly string $questionId,
         private readonly string $exam,
         private readonly string $number,
@@ -15,7 +16,12 @@ class Question
         private readonly string $b,
         private readonly string $c,
         private readonly string $d,
-        private readonly string $answer
+        private readonly string $answer,
+        private readonly string $detailedAnswer = '',
+        private readonly ?string $examName = '',
+        private readonly ?string $examType = '',
+        private readonly ?string $examUrl = '',
+        private readonly ?string $examDescription = '',
     )
     {
     }
@@ -138,5 +144,52 @@ class Question
         ];
         return $transformationArray[$answer];
     }
+
+    public function getDetailedAnswer(): string
+    {
+        if (isset($this->detailedAnswer)) {
+            return $this->detailedAnswer;
+        }
+        return '';
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getExamDescription(): ?string
+    {
+        return $this->examDescription;
+    }
+
+    public function getSumary(): string
+    {
+        $terms = [];
+
+        if (!empty($this->examType)) {
+            $terms[] = $this->examType;
+        }
+
+        if (!empty($this->examName)) {
+            $terms[] = $this->examName;
+        }
+
+        if (!empty($this->examDescription)) {
+            $terms[] = $this->examDescription;
+        }
+
+        $terms = array_unique($terms);
+        return implode('-', $terms);
+    }
+
+    public function getExamUrl(): ?string
+    {
+        return $this->examUrl;
+    }
+
+    public function getUniqueId(): string {
+        return $this->examId . "-" . $this->questionId;
+    }
+
+
 
 }

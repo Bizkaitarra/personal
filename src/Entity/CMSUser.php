@@ -140,4 +140,15 @@ class CMSUser implements UserInterface, PasswordAuthenticatedUserInterface
     {
         return $this->getEmail();
     }
+
+    public function changePassword(): bool
+    {
+        return $this->changePassword;
+    }
+
+    public function setChangePassword(bool $changePassword): void
+    {
+        $this->changePassword = $changePassword;
+    }
+
 }

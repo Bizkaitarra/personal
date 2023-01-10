@@ -27,29 +27,21 @@ class RamdomQuestionFinder
     }
 
     /**
-     * @param ApplicationId $applicationId
-     * @return Question
-     * @throws ExamsForApplicationIdNotFound
      * @throws QuestionsForAplicationIdNotFound
      */
-    public function __invoke(ApplicationId $applicationId):Question
+    public function __invoke(ApplicationId $applicationId, array $previousAnsweredQuestions):Question
     {
 
-        $exams = $this->examRepository->findByApplication($applicationId);
+        $questions = $this->examRepository->findRandomQuestions($applicationId);
 
-        if (count($exams) === 0) {
-            throw new ExamsForApplicationIdNotFound($applicationId);
-        }
+        shuffle($questions);
 
-        shuffle($exams);
-
-        foreach ($exams as $exam) {
-
-            $question = $this->questionRepository->findRandomQuestion($exam);
-
-            if  ($question instanceof QuestionEntity) {
-
-                return new Question(
+        while (count($questions) > 0) {
+            $questionIndex = rand(0, count($questions)-1);
+            $question = $questions[$questionIndex];
+            if ($question instanceof QuestionEntity) {
+                $response = new Question(
+                    $question->getExam()->getId(),
                     $question->getId(),
                     $question->getExamName(),
                     $question->getNumber(),
@@ -58,10 +50,18 @@ class RamdomQuestionFinder
                     $question->getB(),
                     $question->getC(),
                     $question->getD(),
-                    $question->getAnswer()
+                    $question->getAnswer(),
+                    $question->getDetailedAnswer(),
+                    $question->getExam()->getName(),
+                    $question->getExam()->getType(),
+                    $question->getExam()->getUrl(),
+                    $question->getExam()->getDescription()
                 );
+                if (!in_array($response->getUniqueId(), $previousAnsweredQuestions)) {
+                    return $response;
+                }
+                unset($questions[$questionIndex]);
             }
-
         }
 
         throw new QuestionsForAplicationIdNotFound($applicationId);

@@ -90,9 +90,19 @@ class Question
      */
     private $exam;
 
+    /**
+     * @ORM\Column(name="detailedAnswer", type="string", nullable=false)
+     */
+    private $detailedAnswer;
+
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    public function setId(int $id): void
+    {
+        $this->id = $id;
     }
 
     public function getOrdering(): ?int
@@ -225,6 +235,18 @@ class Question
         return $this;
     }
 
+    public function getDetailedAnswer(): ?string
+    {
+        return $this->detailedAnswer;
+    }
+
+    public function setDetailedAnswer(string $detailedAnswer): self
+    {
+        $this->detailedAnswer = $detailedAnswer;
+
+        return $this;
+    }
+
     public function getExam(): ?Exam
     {
         return $this->exam;
@@ -259,6 +281,14 @@ class Question
             "4" => 'D',
             default => '-',
         };
+    }
+
+    public function getApplication(): ?int
+    {
+        if ($this->exam instanceof Exam) {
+            return $this->exam->getApplication();
+        }
+        return null;
     }
 
 

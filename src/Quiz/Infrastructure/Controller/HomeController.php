@@ -24,6 +24,8 @@ class HomeController extends AbstractController
         if ($request->getMethod() === 'POST' && $request->request->has('applicationId')) {
             $this->session->set('applicationId', $request->request->get('applicationId'));
             return $this->redirectToRoute('quiz_question');
+        } else {
+            $this->session->remove('applicationId');
         }
         return $this->render('quiz_home.html.twig');
     }

@@ -1,0 +1,64 @@
+{% set bntClass = 'btn-success' %}
+{% if failed %}
+    {% set bntClass = 'btn-danger' %}
+{% endif %}
+<hr/>
+<hr/>
+<div id="exam-info" class="row mt-5">
+    <div class="col-1 col-lg-3"></div>
+    <div id="exam_area" class="col-10 col-lg-6">
+        <p>{{ question.sumary }}</p>
+    </div>
+    <div class="col-1 col-lg-3"></div>
+</div>
+<div id="question" class="row">
+    <div class="col-1 col-lg-3"></div>
+    <div id="question_area" class="col-10 col-lg-6">
+        <p>{{ historicQuestion.question }}</p>
+    </div>
+    <div class="col-1 col-lg-3"></div>
+</div>
+<div class="row answer">
+    <div class="col-1 col-lg-3"></div>
+    <div class="col-10 col-lg-6 answer_area {% if historicQuestion.answer == '1' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+        <div class="row">
+            <div class="col-2"><input name="answer" type="submit" value="A" class="{{ bntClass }}"></div>
+            <div class="col-10"><p>{{ historicQuestion.a }}</p></div>
+        </div>
+    </div>
+    <div class="col-1 col-lg-3"></div>
+
+</div>
+<div class="row answer">
+    <div class="col-1 col-lg-3"></div>
+    <div class="col-10 col-lg-6 answer_area {% if historicQuestion.answer == '2' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+        <div class="row">
+            <div class="col-2"><input name="answer" type="submit" value="B" class="{{ bntClass }}"></div>
+            <div class="col-10"><p>{{ historicQuestion.b }}</p></div>
+        </div>
+    </div>
+    <div class="col-1 col-lg-3"></div>
+
+</div>
+<div class="row answer">
+    <div class="col-1 col-lg-3"></div>
+    <div class="col-10 col-lg-6 answer_area {% if historicQuestion.answer == '3' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+        <div class="row">
+            <div class="col-2"><input name="answer" type="submit" value="C" class="{{ bntClass }}"></div>
+            <div class="col-10"><p>{{ historicQuestion.c }}</p></div>
+        </div>
+    </div>
+    <div class="col-1 col-lg-3"></div>
+
+</div>
+<div class="row answer">
+    <div class="col-1 col-lg-3"></div>
+    <div class="col-10 col-lg-6 answer_area {% if historicQuestion.answer == '4' %} correct-answer {% else %} incorrect-answer {% endif %}  ">
+        <div class="row">
+            <div class="col-2"><input name="answer" type="submit" value="D" class="{{ bntClass }}"></div>
+            <div class="col-10"><p>{{ historicQuestion.d }}</p></div>
+        </div>
+    </div>
+    <div class="col-1 col-lg-3"></div>
+
+</div>

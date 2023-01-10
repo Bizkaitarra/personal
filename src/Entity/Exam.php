@@ -54,7 +54,7 @@ class Exam
     /**
      * @var string
      *
-     * @ORM\Column(name="url", type="string", length=500, nullable=false)
+     * @ORM\Column(name="url", type="string", length=500, nullable=true)
      */
     private $url;
 
@@ -86,6 +86,12 @@ class Exam
     {
         return $this->id;
     }
+
+    public function setId(int $id): void
+    {
+        $this->id = $id;
+    }
+
 
     public function getOrdering(): ?int
     {
@@ -140,8 +146,11 @@ class Exam
         return $this->url;
     }
 
-    public function setUrl(string $url): self
+    public function setUrl(?string $url): self
     {
+        if ($url === null) {
+            $url = '';
+        }
         $this->url = $url;
 
         return $this;
@@ -201,9 +210,24 @@ class Exam
         return $this;
     }
 
-    public function __toString()
+    public function __toString(): string
     {
-        return $this->name;
+        $terms = [];
+
+        if (!empty($this->type)) {
+            $terms[] = $this->type;
+        }
+
+        if (!empty($this->name)) {
+            $terms[] = $this->name;
+        }
+
+        if (!empty($this->description)) {
+            $terms[] = $this->description;
+        }
+
+        $terms = array_unique($terms);
+        return implode('-', $terms);
     }
 
 

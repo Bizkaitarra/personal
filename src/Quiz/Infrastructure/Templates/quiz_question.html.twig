@@ -1,15 +1,22 @@
 {% extends 'quiz_base.html.twig' %}
 
 {% block body %}
-    <form method="post">
+    {% include 'quiz_question_header.html.twig' %}
 
+    <form method="post">
+        <div id="exam-info" class="row">
+            <div class="col-1 col-lg-3"></div>
+            <div id="exam_area" class="col-10 col-lg-6">
+                <p>{{ question.sumary }}</p>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+        </div>
         <div id="question" class="row">
             <div class="col-1 col-lg-3"></div>
             <div id="question_area" class="col-10 col-lg-6">
                 <p>{{ question.question }}</p>
             </div>
             <div class="col-1 col-lg-3"></div>
-
         </div>
         <div class="row answer">
             <div class="col-1 col-lg-3"></div>
@@ -69,15 +76,6 @@
         </div>
     </form>
 
-    <form method="get" action="{{ path('quiz_index') }}">
-        <div class="row answer">
-            <div class="col-1 col-lg-3"></div>
-            <div class="col-10 col-lg-6 answer_area  ">
-                <div class="row">
-                    <input type="submit" class="btn-info" value="Volver a elegir tipo de examen"/>
-                </div>
-            </div>
-            <div class="col-1 col-lg-3"></div>
-        </div>
-    </form>
+
+    {% include 'quiz_questions_history.html.twig' %}
 {% endblock %}

@@ -1,13 +1,22 @@
 {% extends 'quiz_base.html.twig' %}
 
 {% block body %}
+
+    {% include 'quiz_question_header.html.twig' %}
+
+    <div id="exam-info" class="row">
+        <div class="col-1 col-lg-3"></div>
+        <div id="exam_area" class="col-10 col-lg-6">
+            <p>{{ question.sumary }}</p>
+        </div>
+        <div class="col-1 col-lg-3"></div>
+    </div>
     <div id="question" class="row">
         <div class="col-1 col-lg-3"></div>
         <div id="question_area" class="col-10 col-lg-6">
             <p>{{ question.question }}</p>
         </div>
         <div class="col-1 col-lg-3"></div>
-
     </div>
 
 
@@ -15,10 +24,22 @@
         <div class="col-1 col-lg-3"></div>
         <div id="question_area" class="col-10 col-lg-6">
             {% if isSuccess %}
+            <div class="alert alert-success" role="alert">
                 <p>Has <span style="color: darkgreen">acertado</span>, la respuesta correcta era {{ question.letterAnswer }}</p>
+            </div>
             {% else %}
+            <div class="alert alert-danger" role="alert">
                 <p>Has <span style="color: red">fallado</span>, la respuesta correcta era {{ question.letterAnswer }} y tu respuesta ha sido {{ playerAnswer }}</p>
+            </div>
             {% endif %}
+
+            <a class="mb-3 btn btn-info" data-toggle="collapse" href="#iaAnswer" role="button" aria-expanded="false" aria-controls="iaAnswer">
+            Ver respuesta IA
+            </a>
+            <div class="mb-3 alert alert-info collapse" id="iaAnswer" role="alert">
+                <p>Respuesta según IA: {{ question.detailedAnswer }}</p>
+            </div>
+
         </div>
         <div class="col-1 col-lg-3"></div>
 
@@ -83,17 +104,6 @@
             <div class="col-1 col-lg-3"></div>
         </div>
     </form>
-
-    <form method="get" action="{{ path('quiz_index') }}">
-        <div class="row answer">
-            <div class="col-1 col-lg-3"></div>
-            <div class="col-10 col-lg-6 answer_area  ">
-                <div class="row">
-                    <input type="submit" class="btn-info" value="Volver a elegir tipo de examen"/>
-                </div>
-            </div>
-            <div class="col-1 col-lg-3"></div>
-        </div>
-    </form>
+    {% include 'quiz_questions_history.html.twig' %}
 
 {% endblock %}

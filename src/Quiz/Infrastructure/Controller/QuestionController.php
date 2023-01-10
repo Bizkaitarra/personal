@@ -7,19 +7,24 @@ use App\Exam\Domain\ApplicationId;
 use App\Exam\Domain\Exceptions\ExamsForApplicationIdNotFound;
 use App\Exam\Domain\Exceptions\QuestionsForAplicationIdNotFound;
 use App\Exam\Domain\Question;
+use App\Quiz\Domain\Events\QuestionHasBeenAnswered;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
+use Symfony\Bundle\SecurityBundle\Security;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 class QuestionController extends AbstractController
 {
     private SessionInterface $session;
 
     public function __construct(
-        private readonly RamdomQuestionFinder $randomQuestionFinder,
-        RequestStack                          $requestStack
+        private readonly RamdomQuestionFinder     $randomQuestionFinder,
+        private readonly EventDispatcherInterface $eventDispatcher,
+        private readonly Security                 $security,
+        RequestStack                              $requestStack
     )
     {
         $this->session = $requestStack->getSession();
@@ -50,8 +55,6 @@ class QuestionController extends AbstractController
             $answer = $request->request->get('answer');
             $isCorrectLetterAnswer = $question->isCorrectLetterAnswer($answer);
 
-
-
             if ($isCorrectLetterAnswer) {
                 $correctQuestions[] = $question;
                 $this->session->set('correctQuestions', $correctQuestions);
@@ -59,6 +62,15 @@ class QuestionController extends AbstractController
                 $failedQuestions[] = $question;
                 $this->session->set('failedQuestions', $failedQuestions);
             }
+
+            $this->eventDispatcher->dispatch(
+                QuestionHasBeenAnswered::create(
+                    $question,
+                    $answer,
+                    $this->security->getUser()->getUserIdentifier(),
+                )
+            );
+
             return $this->render(
                 'quiz_question_answer.html.twig',
                 [
@@ -67,8 +79,8 @@ class QuestionController extends AbstractController
                     'isSuccess' => $isCorrectLetterAnswer,
                     'correctsCount' => count($correctQuestions),
                     'failedCount' => count($failedQuestions),
-                'correctQuestions' => $correctQuestions,
-                'failedQuestions' => $failedQuestions,
+                    'correctQuestions' => $correctQuestions,
+                    'failedQuestions' => $failedQuestions,
                 ]
             );
         }
@@ -77,7 +89,7 @@ class QuestionController extends AbstractController
                 new ApplicationId($applicationId),
                 $previousAnsweredQuestions
             );
-        } catch (ExamsForApplicationIdNotFound | QuestionsForAplicationIdNotFound $e) {
+        } catch (ExamsForApplicationIdNotFound|QuestionsForAplicationIdNotFound $e) {
             return $this->render('quiz_no_questions.html.twig');
         }
 

@@ -291,5 +291,10 @@ class Question
         return null;
     }
 
+    public function __toString(): string
+    {
+        return $this->question;
+    }
+
 
 }

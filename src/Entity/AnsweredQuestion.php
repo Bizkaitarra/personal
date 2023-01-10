@@ -60,6 +60,11 @@ class AnsweredQuestion
         return $this->id;
     }
 
+    public function setId($id): void
+    {
+        $this->id = $id;
+    }
+
     public function getQuestion(): ?Question
     {
         return $this->question;
@@ -96,6 +101,13 @@ class AnsweredQuestion
         return $this;
     }
 
+    public function getQuestionCorrectAnswer(): ?string {
+        if (!$this->question instanceof Question) {
+            return '';
+        }
+        return $this->question->getAnswer();
+    }
+
     public function getAnsweredNumber(): ?int
     {
         return $this->answeredNumber;
@@ -106,5 +118,9 @@ class AnsweredQuestion
         $this->answeredNumber = $answeredNumber;
 
         return $this;
+    }
+
+    public function isSuccess(): bool {
+        return $this->answeredNumber == $this->getQuestionCorrectAnswer();
     }
 }

@@ -151,4 +151,9 @@ class CMSUser implements UserInterface, PasswordAuthenticatedUserInterface
         $this->changePassword = $changePassword;
     }
 
+    public function __toString(): string
+    {
+        return $this->getUsername();
+    }
+
 }

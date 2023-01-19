@@ -27,6 +27,18 @@ RUN wget https://cs.symfony.com/download/php-cs-fixer-v2.phar -O php-cs-fixer
 RUN chmod a+x php-cs-fixer
 RUN mv php-cs-fixer /usr/local/bin/php-cs-fixer
 
+# Install npm
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    build-essential
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN apt-get install -y nodejs
+RUN node -v
+RUN npm -v
+#COPY package*.json ./
+RUN npm install
+
 RUN mkdir -p /appdata/www
 
 # Config XDEBUG

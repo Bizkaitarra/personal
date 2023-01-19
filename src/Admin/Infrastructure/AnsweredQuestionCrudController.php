@@ -3,6 +3,7 @@
 namespace App\Admin\Infrastructure;
 
 use App\Entity\AnsweredQuestion;
+use EasyCorp\Bundle\EasyAdminBundle\Config\Filters;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\BooleanField;
@@ -28,5 +29,13 @@ class AnsweredQuestionCrudController extends AbstractCrudController
             AssociationField::new('question'),
             BooleanField::new('success')->onlyOnIndex()
         ];
+    }
+    public function configureFilters(Filters $filters): Filters
+    {
+        return $filters
+            ->add('date')
+            ->add('user')
+            ->add('question')
+            ;
     }
 }

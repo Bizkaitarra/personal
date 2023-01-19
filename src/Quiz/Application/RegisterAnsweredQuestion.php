@@ -3,9 +3,9 @@
 namespace App\Quiz\Application;
 
 use App\Entity\AnsweredQuestion;
-use App\Exam\Domain\Question;
-use App\Exam\Domain\Repository\AnsweredQuestionRepository;
-use App\Exam\Domain\Repository\QuestionRepository;
+use App\Quiz\Domain\Question;
+use App\Quiz\Domain\Repository\AnsweredQuestionRepository;
+use App\Quiz\Domain\Repository\QuestionRepository;
 use App\Security\Domain\Repository\CMSUserRepository;
 use DateTime;
 

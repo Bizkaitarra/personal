@@ -1,0 +1,24 @@
+quiz_login:
+  path: /quiz/login
+  controller: App\Quiz\Infrastructure\Security\SecurityController::login
+
+quiz_logout:
+  path: /quiz/logout
+  controller: App\Quiz\Infrastructure\Security\SecurityController::logout
+
+quiz_index:
+  path: /quiz/play
+  controller: App\Quiz\Infrastructure\Controller\HomeController
+
+quiz_question:
+  path: /quiz/play/question
+  controller: App\Quiz\Infrastructure\Controller\QuestionController
+
+quiz_statistics:
+  path: /quiz/statistics
+  controller: App\Quiz\Infrastructure\Controller\StatisticsController
+
+
+quiz_generate_exam:
+  path: /quiz/generate-exam
+  controller: App\Quiz\Infrastructure\Controller\ExamGeneratorController

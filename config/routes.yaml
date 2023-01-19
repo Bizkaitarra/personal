@@ -3,17 +3,8 @@ admin:
   type:     directory
 
 quiz:
-  resource: '../src/Quiz/Infrastructure/Routes/'
+  resource: '../src/Quiz/Infrastructure/config/'
   type:     directory
-
-exam-api:
-  resource: '../src/Exam/Infrastructure/config/'
-  type:     directory
-
-telegram:
-  resource: '../src/Telegram/Infrastructure/config/'
-  type:     directory
-
 
 bloodDonors:
   resource: '../src/BloodDonors/Infrastructure/config/'

@@ -2,7 +2,7 @@
 
 namespace App\Quiz\Domain\Events;
 
-use App\Exam\Domain\Question;
+use App\Quiz\Domain\Question;
 use DateTime;
 use Symfony\Contracts\EventDispatcher\Event;
 

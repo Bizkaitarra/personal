@@ -1,0 +1,550 @@
+1.- ¿Cuál de los siguientes NO es un patrón funcional de salud de Gordon?
+a) Eliminación.
+b) Respiración.
+c) Autoimagen-autoconcepto.
+d) Sexualidad-reproducción.
+2.- La teoría del déficit de autocuidado de Dorothea Orem está compuesta por las siguientes teorías:
+a) Teorías del cuidado dependiente e independiente.
+b) Teoría del autocuidado y teoría de las necesidades.
+c) Teoría de adaptación al cuidado y la teoría de la diversidad.
+d) Teoría de autocuidado, teoría del cuidado dependiente, teoría del déficit de autocuidado, teoría de sistemas enfermeros.
+3.- ¿Cuál de las siguientes afirmaciones se corresponde con el modelo de Virginia Henderson?
+a) Considera que la práctica de la enfermera es dependiente de la práctica médica.
+b) La atención de enfermería se basa en las 12 necesidades básicas.
+c) La enfermera trabaja en interdependencia con otros profesionales sanitarios y con el paciente.
+d) La enfermera trabaja para ayudar solo a la persona enferma.
+4.- Seleccione la respuesta correcta sobre el proceso enfermero.
+a) El uso del proceso enfermero es la base del pensamiento crítico.
+b) El proceso enfermero únicamente sirve para la planificación y documentación formal de los cuidados.
+c) El proceso enfermero es un proceso lineal que comienza con la valoración y finaliza con la evaluación.
+d) En el proceso enfermero no se debe aplicar el pensamiento crítico de cada profesional.
+5.- La etapa de valoración del proceso enfermero es:
+a) La valoración únicamente sirve para identificar problemas reales del estado de salud.
+b) La valoración debe ser totalmente objetiva y no se debe aplicar el razonamiento clínico.
+c) La valoración consta de 6 etapas: recogida de datos; identificación de claves y elaboración de inferencias; validación de datos; agrupación de los datos relacionados; identificación de patrones y comprobación de primeras impresiones; información y registro de datos.
+d) La valoración no debe ser priorizada, debe ser integral y valorar a la persona en su globalidad.
+6.- Seleccione la respuesta INCORRECTA sobre los diagnósticos enfermeros.
+a) La NANDA International revisa y actualiza periódicamente los diagnósticos enfermeros.
+b) Un diagnóstico enfermero puede focalizarse en un problema, un riesgo potencial o un estado de promoción de salud.
+c) Un diagnóstico enfermero proporciona las bases para la selección de las intervenciones enfermeras.
+d) La taxonomía de la NANDA International clasifica los diagnósticos enfermeros según el modelo de necesidades de Henderson.
+7.- Seleccione la respuesta INCORRECTA sobre las intervenciones de enfermería.
+a) Las intervenciones de enfermería recogidas en la taxonomía NIC se encuentran codificadas y organizadas en 7 dominios.
+b) Las intervenciones de enfermería recogidas en la taxonomía NIC derivan únicamente de los diagnósticos enfermeros.
+c) La selección de una intervención de la taxonomía NIC debe ser posterior a la elección de un resultado de enfermería (NOC).
+d) La NIC se encuentra en continua revisión y ampliación de las intervenciones.
+8.- ¿Cuál de los siguientes NO es un requisito a tener en cuenta a la hora de escuchar?
+a) Establecer una distancia próxima con el paciente.
+b) Suspender todo tipo de juicios o prejuicios sobre la persona que está hablando.
+c) Respeto o aceptación incondicional de la persona.
+d) Adoptar una actitud empática.
+9.- ¿Cuál NO es un objetivo de la relación de ayuda?
+a) Ayudar al paciente a captar sus problemas.
+b) Ayudar al paciente a reconocer lo que es adecuado para él.
+c) Ayudar al paciente a ensayar nuevos modelos de comportamiento.
+d) Ayudar al paciente a comunicar.
+10- ¿En qué nivel de prevención se incluye la realización de cribaje (screening) con el objetivo de conseguir un diagnóstico precoz de una enfermedad? (P. ej. realización de mamografías para la detección precoz del cáncer de mama.)
+a) Prevención primaria.
+b) Prevención secundaria.
+c) Prevención terciaria.
+d) Prevención cuaternaria.
+11.- Cada Comunidad Autónoma sigue las adaptaciones del calendario de vacunación sistemática aprobado por el Consejo Interterritorial del Sistema Nacional de Salud, teniendo en cuenta unas consideraciones. Señale la INCORRECTA.
+a) En caso de estar inmunizados antes de los 12 meses con sarampión o triple vírica o en cualquier edad exclusivamente contra el sarampión, se administrarán dos dosis de triple vírica.
+b) Evitar “ocasiones perdidas” administrando el mayor número de dosis posible en un mismo acto de vacunación, para conseguir que no aparezcan bolsas de población susceptible a enfermedades infecciosas inmunoprevenibles.
+c) Todas las vacunas de antígenos inactivados pueden administrarse simultáneamente o con cualquier intervalo entre ellas.
+d) Promover actuaciones encaminadas a la administración de todas las vacunas que sea posible en el propio centro escolar.
+12.- Según el modelo de los estadios del cambio de Prochaska y Di Clemente, se considera que la persona se encuentra en un estadio de mantenimiento cuando mantiene la nueva conducta ¿a partir de cuánto tiempo?
+a) Más de 2 meses.
+b) Más de 3 meses.
+c) Más de 6 meses.
+d) Más de 12 meses.
+13.- Dentro de la respuesta vacunal, señala la INCORRECTA en relación a la respuesta primaria.
+a) Se produce cuando es la primera vez que el antígeno contacta con el organismo.
+b) Predominan los anticuerpos de tipo IgG.
+c) Se producen escasos niveles de anticuerpos.
+d) Puede durar días o semanas.
+14.- ¿Cuál de las siguientes respuestas sobre las vacunas es INCORRECTA?
+a) La vacuna de la polio oral (VPO) se puede congelar y debe ser protegida de la luz.
+b) La vacuna contra la tosferina está incluida en el calendario vacunal de población adulta de la CAPV durante el embarazo.
+c) Los bebés que hayan pasado la varicela durante su primer año de vida no deberán recibir ninguna dosis de la vacuna frente a la varicela establecidas en el calendario vacunal infantil de la CAPV.
+d) En la vacunación sistemática de adultos frente a la difteria en la CAPV se sigue la misma pauta que la recomendada para la protección frente al tétanos.
+15.- La pirámide definida por el King’s Fund en el Reino Unido es una adaptación de la pirámide de Kaiser en la que se combina la visión sanitaria y la social como dos partes integradas de la atención que requiere un individuo. Según esta pirámide ¿en qué nivel se incluyen el apoyo a los cuidadores y los cuidados en el hogar de alta calidad?
+a) Nivel 1. Autogestión.
+b) Nivel 2. Gestión de la enfermedad.
+c) Nivel 3. Gestión del caso.
+d) Nivel 4. Gestión individual domiciliaria.
+16.- Señala a qué concepto se asocia la siguiente definición: es la capacidad del agente microbiano para invadir y multiplicarse en el huésped.
+a) Contagiosidad.
+b) Patogenicidad.
+c) Infectividad.
+d) Virulencia.
+17.- Señala la respuesta INCORRECTA respecto al índice epidémico.
+a) Permite valorar la incidencia de una determinada enfermedad en la población.
+b) Si el índice es 1,25 o superior, se habla de incidencia alta.
+c) Valora el patrón de frecuencia de una enfermedad en una población.
+d) Se calcula dividiendo el no casos esperados entre el no casos observados.
+18.- El valor predictivo positivo (VPP) se define como:
+a) Probabilidad de que un paciente con un resultado positivo tenga la enfermedad.
+b) Probabilidad de que un paciente con un resultado negativo tenga la enfermedad.
+c) Probabilidad de que un paciente con un resultado negativo no tenga la enfermedad.
+d) Probabilidad de que un paciente con un resultado positivo no tenga la enfermedad.
+19.- Respecto a las precauciones basadas en la transmisión, señala la opción INCORRECTA:
+a) Las precauciones de transmisión aérea se deben seguir con pacientes que se sabe o se sospecha que están infectados con microorganismos transmitidos por gotículas de transmisión aérea (pequeñas partículas de menos de 5 micras de tamaño).
+b) Siguiendo las precauciones de transmisión por gotas la puerta de la habitación debe permanecer cerrada.
+c) Siguiendo las recomendaciones de transmisión por contacto, se deben quitar los guantes antes de dejar el entorno del paciente y lavarse las manos inmediatamente con un agente antimicrobiano o antiséptico.
+d) Una de las indicaciones en el caso de las precauciones de transmisión aérea, es situar al paciente en habitación individual que tenga presión de aire negativa monitorizada en relación con las áreas de alrededor.
+20.- Respecto a la infección por VIH, señala la opción INCORRECTA.
+a) El reservorio es exclusivamente humano.
+b) El período de latencia es solo de días.
+c) El parámetro theta es muy bajo, cercano al 10 %.
+d) El período de incubación dura unos 10 años.
+21.- Una prueba perfecta permitiría diferenciar siempre entre los enfermos y los sanos. Señala a qué concepto se asocia la siguiente definición: capacidad de la prueba para clasificar correctamente (resultado -) a los no enfermos.
+a) Sensibilidad.
+b) Especificidad.
+c) Fiabilidad.
+d) Validez.
+22.- Indica cuál de los siguientes microorganismos NO causa infección de transmisión sexual (ITS):
+a) Streptococo grupo A.
+b) Haemophilus ducreyi.
+c) Molluscum contagiosum.
+d) Treponema pallidum.
+23.- Señala la opción INCORRECTA respecto a la legionelosis.
+a) Es una enfermedad de declaración obligatoria.
+b) El reservorio es el agua y la transmisión se produce de persona a persona.
+c) Las formas clínicas más frecuentes son la enfermedad del legionario y la fiebre de Pontiac.
+d) Una de las formas de destruir la bacteria es el supercalentamiento a >50 oC.
+24.- Entre los factores de riesgo para el bajo peso al nacer se encuentran todos EXCEPTO:
+a) Diabetes mellitus.
+b) Edad > 16.
+c) Bajo nivel de ingresos.
+d) Fumar 1 paquete/día o más.
+25.- En la valoración prenatal inicial son hallazgos normales todos EXCEPTO:
+a) Pulsos disminuidos en extremidades.
+b) Hemoglobina: 12 -16 g/dL.
+c) Ganglios axilares palpables.
+d) Hiperplasia gingival.
+26.- Es un hallazgo normal en el recién nacido durante los primeros días de vida:
+a) 80 respiraciones/minuto, con breves periodos de apnea.
+b) Temperatura axilar de 35,8 – 36,2 oC.
+c) Tensión arterial 120/70 mm Hg al nacimiento.
+d) Con el llanto, hasta 180 latidos/minuto.
+27.- Son objetivos de enfermería durante las primeras 4 horas después del nacimiento (periodo de ingreso), todas EXCEPTO:
+a) Mantener una vía aérea permeable.
+b) Mantener un entorno térmico neutro.
+c) Evitar la alimentación.
+d) Observar la primera orina y las primeras heces.
+28.- En la enseñanza a los padres en la preparación para el alta son métodos adecuados todos EXCEPTO:
+a) Aportar material escrito y folletos.
+b) Utilizar un muñeco para demostrar las conductas.
+c) Evitar que haya espacio para las preguntas.
+d) Demostrar las técnicas y pedir una demostración.
+29.- En la valoración de enfermería de un recién nacido con atresia de coanas podemos identificar:
+a) Oclusión posterior de la nariz.
+b) Cabeza agrandada.
+c) Fisura que conecta las cavidades oral y nasal.
+d) Goteo constante de orina.
+30.- Los recién nacidos de madres alcohólicas corren el riesgo de sufrir complicaciones a largo plazo. Todas son correctas EXCEPTO:
+a) Ictericia.
+b) Bajo nivel intelectual.
+c) Anomalías del lenguaje.
+d) Hiperactividad.
+31.- La eritromicina se utiliza como tratamiento profiláctico de la oftalmia neonatal causada por la bacteria Neisseria Gonorrhoeae. En su administración la enfermería ha de tener en cuenta que:
+a) No debe bajo ningún concepto eliminar el exceso de pomada pasados varios minutos.
+b) Debe irrigar los ojos después de la aplicación.
+c) No debe limpiar los ojos del recién nacido antes de la aplicación.
+d) Debe utilizar un tuvo nuevo de un solo uso en cada administración.
+32.- En la alimentación por sonda de un recién nacido dentro de la actuación de enfermería, qué NO es correcto:
+a) Montar y preparar el equipo.
+b) Explicar el procedimiento y su objetivo a la familia.
+c) Utilizar preferiblemente la vía nasogástrica a la orogástrica.
+d) Maximizar el placer de la toma del recién nacido, siempre que sea posible durante la alimentación.
+33.- Uno de los factores de alto riesgo prenatal es la macrosomia fetal. ¿Qué implicación tiene para la madre?
+a) Un mayor riesgo de hemorragia postparto.
+b) Un mayor riesgo de diabetes gestacional.
+c) Un mayor riesgo de preclampsia.
+d) Un aumento de la hospitalización.
+34.- La mayoría de los accidentes de los niños en edad escolar pueden evitarse si se toman las medidas adecuadas para su prevención. ¿Cuál de las siguientes medidas se considera la más adecuada?
+a) La vía técnica.
+b) La vía normativa.
+c) La vía preventiva.
+d) La vía educativa.
+35.- Un resultado positivo a un análisis de sangre de VHS-2 implica que con mucha probabilidad haya una infección por:
+a) Clamidia.
+b) Sífilis.
+c) Herpes genital.
+d) Virus papiloma humano.
+36.- El síndrome de Münchhausen...:
+a) Es un trastorno del desarrollo sexual caracterizado por la presencia de genitales externo femeninos.
+b) Es una forma de maltrato infantil en la que el/la cuidador/a del niño/a inventa síntomas falsos o provoca síntomas reales para que parezca que el niño/a está enfermo/a.
+c) Es un maltrato emocional sobre el niño/a través de insultos y situaciones de hostilidad verbal crónica.
+d) Es un trastorno genético que afecta al desarrollo de las niñas y su causa es un cromosoma X ausente o incompleto.
+37.- ¿Cuál de los siguientes NO es un objetivo en el control del niño/a sano/a?
+a) Apoyar en las pruebas diagnósticas.
+b) Orientar sobre nutrición.
+c) Disciplinar los esfínteres.
+d) Prevenir accidentes.
+38.- ¿Cuál de las siguientes NO es una recomendación de alimentación saludable para padres y madres?
+a) Enseñar al niño / a la niña a comer de todo y no abusar de nada.
+b) Enseñar a no jugar con la comida.
+c) Limitar el consumo de “calorías vacías”.
+d) Conocer los menús escolares para complementarlos en casa.
+39.- El aspecto de mayor importancia en la higiene de la población en edad escolar es:
+a) La higiene de manos.
+b) La higiene genital.
+c) La higiene buco-dental.
+d) La autonomía en la higiene.
+40.- ¿Cuál de las siguientes respuestas NO es un factor de riesgo para el consumo de tóxicos en la adolescencia?
+a) Sentimiento de inmortalidad.
+b) Capacidad adquisitiva alta.
+c) Consumo de tóxicos por parte de progenitores.
+d) Baja autoestima.
+41.- Señale la respuesta INCORRECTA sobre educación sexual en adolescentes.
+a) La educación sexual ayuda a conocer los límites que las parejas deben establecer en su relación.
+b) La educación sexual precoz favorece el llamado “sexo seguro”.
+c) La educación sexual estimula el inicio precoz de las relaciones sexuales.
+d) La educación sexual no se debe impartir únicamente en el centro educativo.
+42.- ¿Qué tipo de diabetes es la más habitual y sus causas incluyen obesidad, herencia y factores ambientales?
+a) Diabetes tipo 1.
+b) Diabetes tipo 2.
+c) Diabetes gestacional.
+d) Diabetes relacionada con otros trastornos.
+43.- Indique cuál de las siguientes características en una persona diabética NO es de alto riesgo para desarrollar infecciones y otras alteraciones en los pies:
+a) Duración de la diabetes mayor de 10 años.
+b) Antecedente de tabaquismo.
+c) Disminución de los pulsos periféricos.
+d) Aumento de la sensibilidad.
+44.- Entre las recomendaciones que se le da al paciente con una extremidad superior inmovilizada con una escayola NO se encuentra:
+a) Elevar la extremidad inmovilizada a nivel del corazón.
+b) Informar del dolor que no se controla con analgesia y elevación del miembro.
+c) Enseñar a insertar objetos romos dentro de la escayola para aliviar el prurito.
+d) Mostrar los ejercicios para promover la circulación y disminuir el síndrome por desuso.
+45.- Señale cuál es un factor de riesgo de osteoporosis:
+a) El sedentarismo.
+b) La exposición a la luz solar.
+c) Ingesta alta de calcio y vitamina D.
+d) Índice de masa corporal elevado.
+46.- Indique cuál de las siguientes intervenciones de enfermería NO se debe realizar en el posoperatorio a una paciente con sustitución total de cadera:
+a) Valorar la capacidad para mover los pies y dedos de los pies.
+b) Anotar las características y cantidad del drenaje.
+c) Fomentar el cruce de las piernas.
+d) Evitar la flexión aguda de la cadera.
+47.- ¿Qué intervención enfermera NO está indicada para mantener la vía respiratoria permeable en una paciente con alteración en el nivel de conciencia?
+a) Colocar a la paciente en posición lateral o semiprona.
+b) Aspiración de secreciones si precisa.
+c) Medidas de higiene de la cavidad bucal.
+d) Posición en decúbito supino con la cama totalmente horizontal.
+48.- Dentro de los factores de riesgo modificables para el accidente vascular cerebral isquémico NO se encuentra:
+a) La hipotensión.
+b) La hiperlipidemia.
+c) El tabaquismo.
+d) La obesidad.
+49.- ¿Para qué se utiliza la prueba del monofilamento en pacientes con diabetes?
+a) Para valorar el nivel de glucemia.
+b) Para valorar la agudeza visual.
+c) Para valorar la evolución de las úlceras neuropáticas.
+d) Para valorar el umbral de sensibilidad en los pies.
+50.- Los resultados de la gasometría arterial de un paciente son PH: 7,46, PCO2: 44 mm Hg, PO2: 85 mm Hg y HCO3: 32 mEq/L. ¿Qué alteración del equilibrio acido base presenta?
+a) Acidosis metabólica.
+b) Alcalosis respiratoria.
+c) Alcalosis metabólica.
+d) Acidosis respiratoria.
+51.- Nos encontramos con un problema respiratoria de procesos obstructivos. ¿Nos encontraremos con?
+a) Dificultad de la entrada de aire con espiración alargada.
+b) Dificultad de la salida de aire con inspiración alargada.
+c) Dificultad de la salida de aire con espiración alargada.
+d) Dificultad de la entrada de aire con inspiración alargada.
+52.- Causa más frecuente de Cor Pulmonale, trastorno en el que el ventrículo derecho crece:
+a) Asma leve.
+b) EPOC grave.
+c) Neumonía grave.
+d) Bronquitis crónica.
+53.- Para comprobar la idoneidad de la perfusión colateral antes de la punción arterial, ¿sobre qué dos arterias debemos aplicar presión con el dedo índice y corazón?
+a) Radial y braquial.
+b) Braquial y ulnar.
+c) Radial y ulnar.
+d) Cubital y ulnar.
+54.- Cuál NO es una recomendación para prevenir la infección relacionada con el acceso vascular:
+a) Para insertar catéteres arteriales o líneas medias se deben emplear los guantes estériles (CDC 2011 evidencia Ib).
+b) Antes de insertar el catéter no se debe dejar secar del todo el antiséptico empleado según la recomendación del fabricante (CDC 2011, grado evidencia Ib).
+c) No administrar profilaxis antimicrobiana sistémica de modo rutinario antes de la inserción o durante el uso de los catéteres vasculares para prevenir la colonización del catéter o la infección relacionada con catéter (CDC 2011, Grado evidencia Ib).
+d) Para la canalización de un catéter venoso periférico, preparar la piel con un antiséptico (alcohol 70 %, povidona yodada, clorhexidina alcohólica) (CDC 2011, Grado Evidencia Ib).
+55.- Andoni acude a urgencias refiriendo una clínica de mareos y disminución de la conciencia. Al monitorizar observamos una FC baja, un intervalo PR constante de algunas Ps conducen y otras no. ¿Qué tipo de bloqueo auriculo-ventricular nos encontramos que justifique esa clínica?
+a) Bloqueo AV de primer grado.
+b) Bloqueo AV de segundo grado tipo I.
+c) Bloqueo AV de segundo grado tipo II.
+d) Bloqueo AV de tercer grado.
+56.- ¿Cuál es el proceso inflamatorio no transmural con afectación superficial del colon caracterizado por múltiples ulceraciones, inflamaciones difusas, descamación del epitelio del colon manifestado por hemorragia rectal, dolor abdominal en cuadrante inferior izquierdo, exacerbaciones y remisiones?
+a) Ulcera péptica.
+b) Enfermedad de Crohn.
+c) Colitis ulcerosa.
+d) Gastritis.
+57.- ¿Cómo definimos la MELENA?
+a) Emisión de sangre roja por esfínter anal, generalmente originada en la parte baja de tubo digestivo.
+b) Presencia de sangre roja en heces, no modificada por la acción de los fermentos digestivos.
+c) Emisión de sangre digerida por el ano. Deposiciones pegajosas y de un olor fétido característico que provienen generalmente del tracto digestivo superior.
+d) Vómito de sangre o coágulos procedentes de la parte alta del tubo digestivo.
+58.- Cuál de las siguientes patologías cursa con las siguientes manifestaciones clínicas: zumbido, sensación de plenitud o presión en el oído, vértigo episódico incapacitante a menudo acompañado de náuseas y/o vómitos:
+a) Cinetosis.
+b) Enfermedad de Meniere.
+c) Vértigo posicional paroxístico benigno.
+d) Otoesclerosis.
+59.- Tras realizar una prueba Weber, se detecta una pérdida de audición por conducción. ¿Qué detectaremos?
+a) El sonido se escucha mejor en el oído afecto.
+b) El sonido se escucha mejor en el oído normal.
+c) La conducción aérea es audible más lejos que la ósea.
+d) El sonido se escucha en forma equivalente en ambos oídos.
+60.- Para la administración de gotas en el pabellón auditivo externo en un adulto hay que coger el pabellón auricular y estirarlo hacia:
+a) Hacia arriba y hacia delante.
+b) Hacia abajo y hacia atrás.
+c) Hacia abajo y hacia delante.
+d) Hacia arriba y hacia atrás.
+61.- Señale la afirmación incorrecta en relación al protocolo de transfusión de sangre y hemoderivados:
+a) Tomar las constantes vitales antes de comenzar la transfusión.
+b) Comenzar la transfusión lentamente para comprobar si se producen reacciones graves.
+c) Mantener una técnica aséptica durante el procedimiento.
+d) Si es necesario templar la sangre, se debe hacer al baño maría, nunca usar el microondas.
+62.- Los métodos de recalentamiento activo interno en un caso de hipotermia grave NO incluyen:
+a) Administración de líquidos calientes.
+b) Lavado peritoneal caliente.
+c) Oxígeno caliente humectado.
+d) Manta caliente con aire forzado.
+63.- Entre las acciones de enfermería que se completan durante la preparación para la venopunción, NO se encuentra:
+a) Aplicar ligeros golpecitos a la vena para dilatarla.
+b) Indicar a la paciente que abra y cierre el puño para dilatar la vena.
+c) Colocar el brazo en una posición en declive.
+d) Aplicar frío en la zona para aumentar el riego sanguíneo.
+64.- ¿Cuál de los siguientes NO es un factor de riesgo para complicaciones quirúrgicas?
+a) Cirrosis.
+b) Deshidratación o desequilibrio electrolítico.
+c) Índice de masa corporal de 24,4.
+d) Hipofunción renal.
+65.- Los fármacos antieméticos:
+a) Tienen como finalidad disminuir el dolor intraoperatorio.
+b) Se utilizan como prevención de náuseas y vómitos.
+c) Solo se absorben por vía IM.
+d) No tienen efectos adversos conocidos.
+66.- Indique cuál de los siguientes factores afecta a la cicatrización de las heridas:
+a) Deficiencias nutricionales.
+b) Normovolemia.
+c) Oxigenación tisular suficiente.
+d) Analgésicos.
+67.- Entre las alteraciones en la mucosa bucal causadas por radioterapia se incluyen todas las siguientes, EXCEPTO:
+a) Aumento en la producción de saliva.
+b) Estomatitis.
+c) Xerostomía.
+d) Cambio y pérdida gustativos.
+68.- Según el Decreto 38/2012, sobre historia clínica y derechos y obligaciones de pacientes y profesionales de la salud en materia de documentación clínica, señale la respuesta correcta:
+a) Es de aplicación a todo tipo de asistencia sanitaria, pública y privada, que se preste en los centros sanitarios de la Comunidad Autónoma del País Vasco, tanto a nivel de atención primaria como especializada, incluida la actividad sanitaria que se lleve a cabo de forma individual.
+b) Es de aplicación a todo tipo de asistencia sanitaria, pública y privada, que se preste en los centros sanitarios del Estado, tanto a nivel de atención primaria como especializada, incluida la actividad sanitaria que se lleve a cabo de forma individual.
+c) Es de aplicación a todo tipo de asistencia sanitaria pública, que se preste en los centros sanitarios de la Comunidad Autónoma del País Vasco, tanto a nivel de atención primaria como especializada, incluida la actividad sanitaria que se lleve a cabo de forma individual.
+d) Es de aplicación a todo tipo de asistencia sanitaria, pública y privada, que se preste en los centros sanitarios de la Comunidad Autónoma del País Vasco, tanto a nivel de atención primaria como especializada, incluida la actividad sanitaria que se lleve a cabo de forma global.
+69.- ¿Cuál de los siguientes colectivos no se consideran vulnerables en el Decreto 147/2015 de Declaración sobre Derechos y Deberes de las personas en el sistema sanitario de Euskadi?:
+a) Personas con trastorno mental.
+b) Personas transexuales.
+c) Inmigrantes en situaciones administrativas irregulares.
+d) Personas con trastornos crónicos.
+70.- ¿Qué capítulo del Código Deontológico de la Enfermería Española se refiere a los Derechos de los enfermos y de los profesionales de Enfermería?
+a) I.
+b) II.
+c) III.
+d) IV.
+71.- Respecto al protocolo sanitario ante el maltrato en el ámbito doméstico y la violencia sexual contra las mujeres, señala la respuesta INCORRECTA.
+a) Se entregará una copia del parte de lesiones y del "Oficio-Remisión" a la persona maltratada salvo que ello comprometa su seguridad personal.
+b) En el parte de lesiones no se incorporarán los datos de filiación de la víctima (nombre, edad, sexo, dirección, ...) para mantener el anonimato.
+c) Una vez cumplimentado el parte de lesiones, se hará lectura del mismo a la víctima.
+d) En caso de urgencia en la notificación, el parte de lesiones se remitirá al juzgado por fax. En el resto de los casos se puede hacer por correo.
+72.- Según la “Guía de actuación para profesionales de la salud ante la violencia de género y las agresiones sexuales en Euskadi”, el objetivo de acompañar a la mujer para ayudar a determinar el mejor plan a seguir para poder introducir algunos cambios forma parte de la fase de:
+a) Precontemplación.
+b) Preparación.
+c) Mantenimiento.
+d) Acción.
+73.- Según la “Guía de recomendaciones de Osakidetza basadas en la evidencia para la prevención de caídas”, señale la opción INCORRECTA.
+a) Se recomienda el uso de barandillas o sujeciones en centros de larga estancia.
+b) Se sugiere la administración de vitamina D (800UI/día) en pacientes institucionalizados.
+c) Los protectores de cadera pueden ser beneficiosos en mayores institucionalizados con alto riesgo de caídas.
+d) En centros de larga estancia, todos los pacientes mayores de 65 años se contemplarán como grupo de riesgo de caídas.
+74.- Señala la respuesta correcta, en relación al uso adecuado de guantes:
+a) Cuando se realiza el ajuste de la fluidoterapia IV es necesario utilizar guantes, no siendo suficiente la higiene de manos.
+b) El tipo de guante a utilizar para la manipulación y administración de citostáticos es el de nitrilo estéril.
+c) Las manos deberán lavarse con una solución alcohólica si están visiblemente sucias.
+d) Los guantes deben ser utilizados cuando sea necesario y el tiempo imprescindible ya que el abuso de empleo de los mismos confiere falsa seguridad y aumenta la contaminación cruzada.
+75.- Siguiendo las recomendaciones para prevenir la incidencia de complicaciones derivadas del acceso vascular para pacientes con tratamiento endovenoso, señale la opción INCORRECTA:
+a) Se recomienda emplear un catéter tipo línea media o un PICC, en vez de un catéter periférico corto, cuando la duración de la terapia endovenosa va a ser superior a 6 días.
+b) Para reducir el riesgo de infección y flebitis en adultos, no hay necesidad de reemplazar los catéteres periféricos cortos antes de 72-96 horas.
+c) Si se está administrando propofol, los equipos de administración deben remplazarse cada 24h.
+d) No retirar los catéteres venosos centrales o los PICC por fiebre. Emplear el juicio clínico para considerar lo apropiado de retirar el catéter si hay evidencia de infección en otro lugar o si se sospecha una causa no infecciosa para la fiebre.
+76.- Dentro de la Herramienta de implantación de buenas prácticas desarrollada por la Registered Nurses’ Association of Ontario (RNAO), se recoge la fase de Monitorización del uso del conocimiento y evaluación de resultados. Señala las acciones que NO se incluyen dentro de esta fase:
+a) Identificación de barreras y facilitadores.
+b) Monitorización de la utilización del conocimiento.
+c) Evaluación de los resultados en distintos niveles: institución, profesionales y pacientes.
+d) Evaluación de la sostenibilidad de las nuevas prácticas.
+77.- ¿Cuál de las siguientes respuestas NO está recogida como objetivo dentro de la Herramienta de implantación de buenas prácticas desarrollada por la Registered Nurses’ Association of Ontario (RNAO)?
+a) Resolver un problema en el ámbito clínico (p. ej. mal manejo del dolor).
+b) Dar a conocer la innovación (p. ej. una nueva prueba o tratamiento).
+c) Eliminar el uso de intervenciones no reconocidas como buenas prácticas.
+d) Aumentar el prestigio de la institución en la que se desarrollan las buenas prácticas.
+78.- La Enfermería Basada en la Evidencia (EBE) consta de una serie de etapas. ¿Cuál es la primera?
+a) Diseño de la investigación.
+b) Localizar evidencias mediante búsqueda bibliográfica.
+c) Formulación de una pregunta relacionada con un problema o incertidumbre de la práctica.
+d) Evaluación crítica de la bibliografía.
+79.- Dentro de las distintas medidas de frecuencia de enfermedad, señala a cuál corresponde la siguiente definición: el número de casos nuevos que se desarrollan en una población susceptible al comienzo de un periodo.
+a) Incidencia.
+b) Incidencia acumulada.
+c) Densidad de incidencia.
+d) Prevalencia.
+80.- En la investigación cualitativa, ¿qué tipo de diseño se enfoca en las percepciones de las personas y al significado que le dan a una experiencia que han vivido?
+a) Biografía.
+b) Etnografía.
+c) Fenomenología.
+d) Descriptivo transversal.
+81.- ¿Qué test estadístico se utiliza para estudiar la relación entre dos variables categóricas?
+a) Prueba de Chi-cuadrado.
+b) Prueba de T de Student.
+c) Regresión lineal.
+d) ANOVA.
+82.- La escala de Braden consta de:
+a) 7 subescalas.
+b) 5 subescalas.
+c) 8 subescalas.
+d) 6 subescalas.
+83.- En la escala Resvech se puede obtener una puntuación máxima de:
+a) 25 puntos.
+b) 30 puntos.
+c) 35 puntos.
+d) 40 puntos.
+84.- ¿Cuál de las siguientes afirmaciones NO es correcta si atendemos a las tendencias en los comportamientos de consumo de sustancias tóxicas?
+a) El perfil de persona adicta se aleja del tradicional perfil de persona adicta en situación de elevada exclusión.
+b) El consumo experimental se circunscribe a la juventud.
+c) Uno de los retos principales en relación con las adiciones, radica en las patologías mentales.
+d) El consumo de sustancias tóxicas se relaciona cada vez más con los entornos de ocio.
+85.- Según el VII Plan de adicciones de Euskadi 2017 – 2021, ¿qué sustancia que ha incrementado su tratamiento en cuanto a importancia relativa en las consultas ambulatorias?
+a) El cannabis.
+b) La cocaína.
+c) La heroína.
+d) Las anfetaminas.
+86.- ¿Cuál de las siguientes afirmaciones NO es correcta sobre la escala MMSE (Mini Mental State Examitation)?
+a) Es una escala fácil de pasar, apenas ocupa 5-6 minutos.
+b) Se considera una herramienta de diagnóstico en sentido estricto.
+c) El grado de escolaridad influye en el resultado.
+d) La falta de visión influye en el resultado de la evaluación.
+87.- Según Kübler Ross, ¿cuál es la tercera etapa del duelo?
+a) Aceptación.
+b) Pacto.
+c) Depresión.
+d) Negación.
+88.- ¿Qué diagnostico NO estaría incluido dentro del plan de cuidados que ha de desarrollar la enfermería para las personas con episodios de depresión?
+a) Descuido personal.
+b) Control de impulsos ineficaz.
+c) Insomnio.
+d) Desempeño ineficaz del rol.
+89.- Cuando se va a desarrollar un plan de cuidados a personas que padecen esquizofrenia se debe hacer una valoración de los patrones funcionales. ¿Cuál de los siguientes patrones NO se tiene en cuenta?
+a) Percepción y manejo de la salud.
+b) Sueño – descanso.
+c) Valores y creencias.
+d) Tolerancia al estrés.
+90.- A la hora de realizar la valoración funcional de una persona de edad avanzada es un factor determinante:
+a) Buscar un momento del día en el que el familiar no esté fatigado.
+b) La evaluación directa llevada a cabo por personal especializado es menos sensible y precisa.
+c) Preferentemente realizarla en el entorno natural del sujeto.
+d) No fragmentar el proceso de evaluación cuando los datos para registrar exijan mucho tiempo.
+91.- La escala de Braden:
+a) Se emplea para valorar el grado de deterioro cognitivo.
+b) Es una escala negativa, es decir, que a menor puntuación tiene mayor riesgo.
+c) Consta de 4 subescalas.
+d) En atención hospitalaria, la primera valoración del riesgo debe realizarse a los 5 días tras el ingreso.
+92.- Las fases básicas en el proceso de cicatrización son:
+a) Hemostasia, inflamación, granulación, epitelización y maduración.
+b) Inflamación, granulación, epitelización, maduración y hemostasia.
+c) Inflamación, granulación, epitelización, remodelación y hemostasia.
+d) Hemostasia, inflamación, granulación, epitelización, maduración y remodelación.
+93.- Al poner en marcha un programa de cuidados paliativos es necesario considerar seis elementos fundamentales. Entre ellos se encuentran todos los siguientes EXCEPTO:
+a) El control de síntomas.
+b) El alivio del sufrimiento.
+c) Derivar a la familia.
+d) El trabajo en equipo.
+94.- Entre los principios que rigen la relación entre los profesionales sanitarios y las personas atendidas por ellos están los siguientes:
+a) Los pacientes tienen derecho a la libre elección del médico que debe atenderles, siempre que tal atención se desarrolle en el ámbito privado.
+b) Los pacientes tienen derecho a la libre elección del médico que debe atenderles, siempre que el ejercicio profesional se desarrolle en el sistema público.
+c) Los pacientes no tienen derecho a la libre elección del médico, ni en el sistema público ni en el ámbito privado.
+d) Los pacientes tienen derecho a la libre elección del médico que debe atenderles, tanto si el ejercicio profesional se desarrolle en el sistema público cómo en el ámbito privado por cuenta ajena.
+95.- ¿Qué NO comprende la prestación de atención especializada?
+a) Los cuidados sanitarios de larga duración.
+b) La hospitalización en régimen de internamiento.
+c) La atención a la salud mental.
+d) La atención paliativa a enfermos terminales.
+96.- Dentro de los derechos específicos en las relaciones asistenciales de los usuarios del sistema sanitario de Euskadi está:
+a) Proseguir la formación durante el tiempo de ingreso hospitalario.
+b) Conocer los problemas sanitarios de la colectividad.
+c) Negarse al tratamiento, salvo en los casos determinados en la ley.
+d) Ser inmunizadas contra las enfermedades infectocontagiosas contempladas en el calendario de vacunas.
+97.- ¿Cuál de las siguientes afirmaciones sobre el consentimiento informado es INCORRECTA?
+a) Toda actuación en el ámbito de la salud de un paciente necesita el consentimiento libre y voluntario del afectado.
+b) El consentimiento escrito del paciente será necesario para cada Intervención quirúrgica que suponga riesgo sobre la salud.
+c) La renuncia del paciente a recibir información, cuando la ley lo permita, se hará constar documentalmente y sin perjuicio de la obtención de su consentimiento para la intervención.
+d) Siempre que el paciente sea menor de edad, el consentimiento lo dará el representante legal.
+98.- ¿Qué NO forma parte del contenido mínimo de la historia clínica?
+a) La aplicación terapéutica de enfermería.
+b) La hoja de interconsulta.
+c) Las anotaciones subjetivas de los profesionales.
+d) La evolución.
+99.- Plan de Salud. Políticas de Salud para Euskadi 2013-2020. En relación al objetivo envejecimiento activo: acciones. Señala la respuesta correcta.
+a) No existen acciones a realizar recogidas en dicho plan.
+b) Promover y desarrollar el voluntariado entre las personas mayores
+c) Incentivar económicamente el deporte federativo: fútbol por ser un deporte mayoritario entre la población.
+d) Construcción de polideportivos, de uso exclusivo a personas de edad avanzada.
+100.- Estrategia de Seguridad del Paciente en Osakidetza 20 20. GESTIÓN DE LOS INCIDENTES DE SEGURIDAD. Las fases que integran el proceso de gestión de riesgos son... Señala la respuesta INCORRECTA.
+a) Planificación e implementación de las acciones de mejora.
+b) Evaluación y seguimiento de las acciones de mejora implantadas.
+c) Feedback de los resultados a los profesionales.
+d) Identificación del riesgo a través de los medios de comunicación social.
+101.- Señala la respuesta INCORRECTA dentro de los datos aportados por el estudio “El impacto de las diferentes enfermedades en la salud de la CAPV” elaborado por el Departamento de Sanidad en el año 2008 y recogido en la Estrategia para afrontar el reto de la cronicidad en Euskadi 2010.
+a) Las enfermedades cardiovasculares fueron la principal causa de defunciones, siendo causantes de un 20,4 % de las muertes en el caso de los hombres y de un 17,3 % en el caso de las mujeres.
+b) En las mujeres, las enfermedades cardiovasculares causaron el mayor número de defunciones (17,3 %), seguidas por la diabetes (3,0 %)
+c) Las patologías osteoarticulares causaron el 26,6 % de los casos de discapacidad en hombres.
+d) Las patologías osteorarticulares causaron el 45 % de los casos de discapacidad en mujeres.
+102.- Ante un paciente afectado de virus sincitial respiratorio debemos seguir precauciones:
+a) Estándar.
+b) Estándar y de transmisión aérea.
+c) Estándar y de transmisión por gotas.
+d) Estándar y de transmisión por contacto.
+103.- El pulso de una mujer gestante puede aumentar en:
+a) 5-10 latidos por minuto.
+b) 10-15 latidos por minuto.
+c) 15-20 latidos por minuto.
+d) 20-25 latidos por minuto.
+104.- Señale la respuesta correcta sobre la pubertad.
+a) La pubertad está más relacionada con la edad cronológica que con el grado de maduración.
+b) La ginecomastia en varones debe considerarse como una condición normal durante el desarrollo puberal.
+c) La edad de comienzo de la pubertad es similar en ambos sexos.
+d) Se considera pubertad precoz la aparición de signos puberales antes de los 10 años en niñas y 12 en niños.
+105.- Cuál de los siguientes factores principales NO afectan a la presión arterial:
+a) Gasto cardiaco.
+b) Resistencia vascular periférica.
+c) Volumen sanguíneo.
+d) Ninguna es correcta.
+106.- Señale la respuesta INCORRECTA sobre los catéteres de la línea media.
+a) Necesitan comprobación con rayos X tras su colocación.
+b) Miden entre 7,5 y 20 cm.
+c) Pueden tener complicaciones como flebitis e infección.
+d) Se utilizan para terapia IV a medio y largo plazo.
+107.- Si queremos realizar una búsqueda de bibliografía sobre la “prevención del embarazo adolescente”, señala la respuesta con la que se obtendrán los resultados en los que se incluyan todos los términos de búsqueda y que a su vez resulte más limitante sobre el tema a estudio.
+a) Prevención AND embarazo AND adolescente.
+b) Prevención AND embarazo AND adolescente OR adulto.
+c) Prevención AND embarazo AND adolescente NOT adulto.
+d) Prevención AND embarazo OR adolescente.
+108.- En los instrumentos de valoración cognitiva:
+a) Se debe intentar que la persona mayor no caiga en la fatigabilidad.
+b) La fatigabilidad nunca depende del número de ítems que compone el instrumento.
+c) No importa que haya fatigabilidad si con ello conseguimos datos científicos.
+d) Cuando el paciente está fatigado se obtienen mejores resultados.
+109.- En la investigación cuantitativa, ¿qué tipo de diseño es el que examina comparativamente la exposición a un factor de riesgo en sujetos que presentan una enfermedad de interés y en sujetos libres de ella?
+a) Casos-control.
+b) Cohortes.
+c) Ensayo clínico no aleatorizado.
+d) Transversal.
+110.- Para que un producto de apoyo sea adecuado para las personas mayores y sus cuidadores debe reunir una serie de características, todas EXCEPTO:
+a) Accesible.
+b) Amigable.
+c) Metálico.
+d) Actual.

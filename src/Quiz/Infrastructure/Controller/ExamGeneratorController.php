@@ -2,8 +2,8 @@
 
 namespace App\Quiz\Infrastructure\Controller;
 
-use App\Exam\Application\RandomExamGenerator;
-use App\Exam\Domain\ApplicationId;
+use App\Quiz\Application\RandomExamGenerator;
+use App\Quiz\Domain\ApplicationId;
 use Dompdf\Dompdf;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;

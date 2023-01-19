@@ -1,4 +1,0 @@
-ope_due_2_hook:
-#  methods: GET
-  path: /telegram/opedue2/hook
-  controller: App\Telegram\OpeDue\Infrastructure\Controller\BotHookController

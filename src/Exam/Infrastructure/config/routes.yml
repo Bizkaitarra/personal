@@ -1,4 +1,0 @@
-exam-ramdom-question:
-  methods: GET
-  path: /api/exam/random-question/{applicationId}
-  controller: App\Exam\Infrastructure\RandomQuestion

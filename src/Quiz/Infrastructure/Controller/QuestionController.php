@@ -2,11 +2,11 @@
 
 namespace App\Quiz\Infrastructure\Controller;
 
-use App\Exam\Application\RamdomQuestionFinder;
-use App\Exam\Domain\ApplicationId;
-use App\Exam\Domain\Exceptions\ExamsForApplicationIdNotFound;
-use App\Exam\Domain\Exceptions\QuestionsForAplicationIdNotFound;
-use App\Exam\Domain\Question;
+use App\Quiz\Application\RamdomQuestionFinder;
+use App\Quiz\Domain\ApplicationId;
+use App\Quiz\Domain\Exceptions\ExamsForApplicationIdNotFound;
+use App\Quiz\Domain\Exceptions\QuestionsForAplicationIdNotFound;
+use App\Quiz\Domain\Question;
 use App\Quiz\Domain\Events\QuestionHasBeenAnswered;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;

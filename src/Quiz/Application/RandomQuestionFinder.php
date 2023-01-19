@@ -5,13 +5,11 @@ namespace App\Quiz\Application;
 
 use App\Entity\Question as QuestionEntity;
 use App\Quiz\Domain\ApplicationId;
-use App\Quiz\Domain\Exceptions\ExamsForApplicationIdNotFound;
 use App\Quiz\Domain\Exceptions\QuestionsForAplicationIdNotFound;
 use App\Quiz\Domain\Question;
 use App\Quiz\Domain\Repository\ExamRepository;
-use App\Quiz\Domain\Repository\QuestionRepository;
 
-class RamdomQuestionFinder
+class RandomQuestionFinder
 {
     public function __construct(
         private readonly ExamRepository $examRepository,

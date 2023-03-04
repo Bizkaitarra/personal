@@ -1,0 +1,4 @@
+bloodDonorsFind:
+  methods: GET
+  path: /api/bizkaibus/stop/{stopCode}
+  controller: App\Bizkaibus\Infrastructure\Controller\AlexaGetTimes

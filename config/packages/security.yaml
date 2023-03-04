@@ -33,7 +33,7 @@ security:
                 path: admin_logout
                 target: admin_login
     access_control:
-         - { path: ^/admin, roles: ROLE_ADMIN }
+         - { path: ^/admin, roles: ROLE_QUIZ_USER }
          - { path: ^/quiz/play, roles: ROLE_QUIZ_USER }
         # - { path: ^/profile, roles: ROLE_USER }
     role_hierarchy:

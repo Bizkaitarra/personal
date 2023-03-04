@@ -22,3 +22,7 @@ quiz_statistics:
 quiz_generate_exam:
   path: /quiz/generate-exam
   controller: App\Quiz\Infrastructure\Controller\ExamGeneratorController
+
+quiz_own_exam:
+  path: /quiz/own-exam-configuration
+  controller: App\Quiz\Infrastructure\Controller\OwnExamController

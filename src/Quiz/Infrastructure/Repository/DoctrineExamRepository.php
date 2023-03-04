@@ -44,4 +44,18 @@ class DoctrineExamRepository implements ExamRepository
         return $query->getResult();
 
     }
+
+
+    public function findRandomQuestionsForExam(int $examId): array
+    {
+        $queryBuilder = $this->entityManager->createQueryBuilder();
+        $query = $queryBuilder
+            ->select('q')
+            ->from(Question::class, 'q')
+            ->join('q.exam', 'e')
+            ->andWhere('e.id = :exam')
+            ->setParameter('exam', $examId)
+            ->getQuery();
+        return $query->getResult();
+    }
 }
